@@ -1,6 +1,7 @@
 import { createStackNavigator } from '@react-navigation/stack'
 
-import { Image, Pressable, StyleSheet } from 'react-native'
+import { Image, Pressable, StyleSheet, View } from 'react-native'
+import AntIcon from 'react-native-vector-icons/AntDesign'
 import HomePage from './home'
 import MapPage from './map'
 import TutorialPage from './tutorial'
@@ -9,7 +10,7 @@ const Stack = createStackNavigator()
 
 export function MainStack () {
   const headerOptions = {
-    headerTitleStyle: styles.title,
+    headerTitleStyle: styles.headertitle,
     headerStyle: styles.header,
     headerTitle: 'Diocese de Santos',
     headerShadowVisible: false
@@ -17,22 +18,39 @@ export function MainStack () {
 
   return (
     <Stack.Navigator initialRouteName='Home'>
-      <Stack.Screen name="Home" component={HomePage} options={{ ...headerOptions, headerLeft: HomeButoon }} />
-      <Stack.Screen name="Tutorial" component={TutorialPage} options={{ ...headerOptions, headerLeft: HomeButoon }} />
+      <Stack.Screen name="Home" component={HomePage} options={{ ...headerOptions, headerTitleAlign: 'center', headerLeft: HomeButoon }} />
+      <Stack.Screen name="Tutorial" component={TutorialPage} options={{ ...headerOptions, headerTitle: 'Como usar o aplicativo', headerLeft: BackButoon }} />
       <Stack.Screen name="Mapa" component={MapPage} />
     </Stack.Navigator>
   )
 }
 
 function HomeButoon (props) {
-  return <Pressable style={styles.backButtom} onPress={props.onPress}>
-    <Image source={require('../assets/images/diocese_icon.png')} style={styles.icon} />
-  </Pressable>
+  return <View style={styles.backButtom}>
+    <Pressable style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }} onPress={props.onPress}>
+      <Image source={require('../assets/images/diocese_icon.png')} style={styles.icon} />
+    </Pressable>
+  </View>
+}
+
+function BackButoon (props) {
+  return <View style={styles.backButtom}>
+    <Pressable style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }} onPress={props.onPress}>
+      <AntIcon name='arrowleft' size={30} color="#FFF" />
+    </Pressable>
+  </View>
 }
 
 const styles = StyleSheet.create({
   header: {
     backgroundColor: '#367BC1'
+  },
+  homeButtom: {
+    width: 60,
+    height: 60,
+    padding: 8,
+    flex: 1,
+    justifyContent: 'center'
   },
   backButtom: {
     width: 60,
@@ -46,7 +64,7 @@ const styles = StyleSheet.create({
     height: '100%',
     alignSelf: 'center'
   },
-  title: {
+  headertitle: {
     color: '#FFF',
     fontFamily: 'Montserrat',
     fontSize: 18,

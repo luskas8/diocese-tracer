@@ -48,8 +48,6 @@ export default function MainPanel ({ navigation: { navigate } }) {
         <Pressable style={styles.hint} onPress={() => navigate('Tutorial')}>
           <Text style={styles.text}>Dúvidas</Text>
         </Pressable>
-        {/* <View style={styles.hintView}>
-        </View> */}
       </View>
     </DefaultLayout>
   )
