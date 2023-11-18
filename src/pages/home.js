@@ -3,6 +3,7 @@ import { requestForegroundPermissionsAsync } from 'expo-location'
 import { useEffect } from 'react'
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native'
 import DefaultLayout from '../layouts/default'
+import citys from '../assets/data/citys.json'
 
 export default function MainPanel ({ navigation: { navigate } }) {
   async function requestLocationPermission () {
@@ -37,26 +38,9 @@ export default function MainPanel ({ navigation: { navigate } }) {
           />
           <Picker>
             <Picker.Item label='Selecione uma cidade' value='' />
-            <Picker.Item label='Santos' value='santos' />
-            <Picker.Item label='São Vicente' value='sao-vicente' />
-            <Picker.Item label='Praia Grande' value='praia-grande' />
-            <Picker.Item label='Guarujá' value='guaruja' />
-            <Picker.Item label='Cubatão' value='cubatao' />
-            <Picker.Item label='Bertioga' value='bertioga' />
-            <Picker.Item label='Peruíbe' value='peruibe' />
-            <Picker.Item label='Itanhaém' value='itanhaem' />
-            <Picker.Item label='Mongaguá' value='mongagua' />
-            <Picker.Item label='Itariri' value='itariri' />
-            <Picker.Item label='Pedro de Toledo' value='pedro-de-toledo' />
-            <Picker.Item label='Miracatu' value='miracatu' />
-            <Picker.Item label='Juquiá' value='juquia' />
-            <Picker.Item label='Eldorado' value='eldorado' />
-            <Picker.Item label='Iguape' value='iguape' />
-            <Picker.Item label='Ilha Comprida' value='ilha-comprida' />
-            <Picker.Item label='Cananéia' value='cananeia' />
-            <Picker.Item label='Registro' value='registro' />
-            <Picker.Item label='Jacupiranga' value='jacupiranga' />
-            <Picker.Item label='Cajati' value='cajati' />
+            {Object.keys(citys).map((city) => {
+              return <Picker.Item key={city} label={city} value={citys[city]} />
+            })}
           </Picker>
         </View>
         <Pressable style={styles.hint} onPress={() => navigate('Tutorial')}>
