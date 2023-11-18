@@ -1,8 +1,22 @@
 import { Picker } from '@react-native-picker/picker'
+import { requestForegroundPermissionsAsync } from 'expo-location'
+import { useEffect } from 'react'
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native'
 import DefaultLayout from '../layouts/default'
 
 export default function MainPanel ({ navigation: { navigate } }) {
+  async function requestLocationPermission () {
+    const { granted } = await requestForegroundPermissionsAsync()
+
+    if (!granted) {
+      alert('Permissão de localização necessário para o funcionamento do aplicativo')
+    }
+  }
+
+  useEffect(() => {
+    requestLocationPermission()
+  }, [])
+
   return (
     <DefaultLayout>
       <View style={styles.container}>
@@ -11,7 +25,7 @@ export default function MainPanel ({ navigation: { navigate } }) {
           <Text style={styles.subtitle}>Você pode achar todas as paróquias da Baixada Santista</Text>
         </View>
         <View style={styles.localizationView}>
-          <Pressable style={styles.button} onPress={() => {}}>
+          <Pressable style={styles.button} onPress={() => navigate('Mapa')}>
             <Text style={{ ...styles.text, textTransform: 'uppercase' }}>localizar-me</Text>
           </Pressable>
           <View>
