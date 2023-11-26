@@ -1,11 +1,13 @@
 import { Picker } from '@react-native-picker/picker'
 import { requestForegroundPermissionsAsync } from 'expo-location'
-import { useEffect } from 'react'
-import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native'
-import DefaultLayout from '../layouts/default'
+import { useEffect, useState } from 'react'
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
 import citys from '../assets/data/citys.json'
+import DefaultLayout from '../layouts/default'
 
 export default function MainPanel ({ navigation: { navigate } }) {
+  const [selectedCity, setSelectedCity] = useState()
+
   async function requestLocationPermission () {
     const { granted } = await requestForegroundPermissionsAsync()
 
@@ -26,22 +28,26 @@ export default function MainPanel ({ navigation: { navigate } }) {
           <Text style={styles.subtitle}>Você pode achar todas as paróquias da Baixada Santista</Text>
         </View>
         <View style={styles.localizationView}>
-          <Pressable style={styles.button} onPress={() => navigate('Mapa')}>
+          <Pressable style={styles.button} onPress={() => navigate('Mapa', { cityParam: null })}>
             <Text style={{ ...styles.text, textTransform: 'uppercase' }}>localizar-me</Text>
           </Pressable>
           <View>
-            <Text style={styles.middleView}>ou</Text>
+            <Image source={require('../assets/images/splitter.png')} />
           </View>
-          <TextInput
-            style={styles.inputText}
-            placeholder='Digite um local'
-          />
-          <Picker>
+          <Picker
+            selectedValue={selectedCity}
+            onValueChange={(itemValue) =>
+              setSelectedCity(itemValue)
+            }
+          >
             <Picker.Item label='Selecione uma cidade' value='' />
             {Object.keys(citys).map((city) => {
               return <Picker.Item key={city} label={city} value={citys[city]} />
             })}
           </Picker>
+          <Pressable style={{ ...styles.button, alignSelf: 'center' }} onPress={() => navigate('Mapa', { cityParam: selectedCity })}>
+            <Text style={styles.text}>Enviar</Text>
+          </Pressable>
         </View>
         <Pressable style={styles.hint} onPress={() => navigate('Tutorial')}>
           <Text style={styles.text}>Dúvidas</Text>

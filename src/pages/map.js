@@ -7,13 +7,15 @@ import { ActivityIndicator, StyleSheet, View } from 'react-native'
 import MapView, { Marker } from 'react-native-maps'
 import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 import citys from '../assets/data/citys.json'
+import chunches from '../assets/data/chunches.json'
 import BottonPopup from '../components/BottonPopup'
 
-export default function Map () {
+export default function Map ({ route, navigation }) {
+  const { cityParam } = route.params || null
   const [location, setLocation] = useState(null)
-  const [city, setCity] = useState(null)
+  const [city, setCity] = useState(cityParam)
   const [churchs, setChurchs] = useState([])
-  const [selectedChurchId, setSelectedChurchId] = useState(null)
+  const [selectedChurch, setSelectedChurch] = useState(null)
 
   async function getLocation () {
     const currentLocation = await getCurrentPositionAsync()
@@ -29,14 +31,26 @@ export default function Map () {
       `https://geocode.maps.co/reverse?lat=${latitude}&lon=${longitude}`
     )
     const data = await response.json()
-    setCity(data.address.town || null)
+    setCity(citys[data.address.town] || null)
   }
 
   async function getNerbyChurchs (city) {
-    console.log('>>>>>>>>>>>>>>', city)
     const { latitude, longitude } = location.coords
 
-    const response = await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
+    await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
+      latitude,
+      longitude,
+      // format: 'json',
+      task: 'search',
+      filter_catid: city,
+      searchzip: 'Sua Localização (Você)',
+      limitstart: '10'
+    }, {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      }
+    })
+    const response3 = await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
       latitude,
       longitude,
       format: 'json',
@@ -50,51 +64,29 @@ export default function Map () {
       }
     })
 
-    if (!response.data.features) {
-      await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
-        latitude,
-        longitude,
-        // format: 'json',
-        task: 'search',
-        filter_catid: city,
-        searchzip: 'Sua Localização (Você)',
-        limitstart: '10'
-      }, {
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        }
-      })
+    const { features } = response3.data
 
-      const response3 = await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
-        latitude,
-        longitude,
-        format: 'json',
-        task: 'search',
-        filter_catid: city,
-        searchzip: 'Sua Localização (Você)',
-        limitstart: '10'
-      }, {
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        }
-      })
+    const churchs = features.map((church) => {
+      const { id, properties: { name, distance } } = church
 
-      const { features } = response3.data
-      setChurchs(features)
-      return
-    }
+      return {
+        id,
+        ...chunches[id],
+        distance,
+        name
+      }
+    })
 
-    const { features } = response.data
-    setChurchs(features)
+    setChurchs(churchs)
   }
 
-  function selectChunch (id) {
+  async function selectChunch (id) {
     if (id) {
       const church = churchs.find(church => church.id === id)
-      console.log(church)
+      setSelectedChurch(church)
+    } else {
+      setSelectedChurch(null)
     }
-
-    setSelectedChurchId(id)
   }
 
   useEffect(() => {
@@ -102,15 +94,15 @@ export default function Map () {
   }, [])
 
   useEffect(() => {
-    if (location) {
+    if (location && !city) {
       getCurrentCity()
     }
   }, [location])
 
   useEffect(() => {
     if (location && city) {
-      console.log('buscando igrejas')
-      getNerbyChurchs(citys[city])
+      // console.log('buscando igrejas')
+      getNerbyChurchs(city)
     }
   }, [location, city])
 
@@ -122,11 +114,11 @@ export default function Map () {
     )
   }
 
-  console.log('selectedChurchId', selectedChurchId)
+  // console.log('selectedChurchId', selectedChurch)
 
   return (
     <DefaultLayout>
-      <BottonPopup>
+      <BottonPopup chunch={selectedChurch}>
         <View style={styles.container}>
           {location && (
             <MapView
@@ -155,13 +147,12 @@ export default function Map () {
                     key={id}
                     onPress={() => selectChunch(id)}
                     onDeselect={() => selectChunch(null)}
-                    onMarkerDeselect={() => console.log('AAAAAAA')}
                     coordinate={{
                       latitude: geometry.coordinates[1],
                       longitude: geometry.coordinates[0]
                     }}
                   >
-                    <MaterialIcon name='map-marker' size={45} color={selectedChurchId === id ? '#FFDC29' : '#3EC3FF'} />
+                    <MaterialIcon name='map-marker' size={45} color={selectedChurch && selectedChurch.id === id ? '#FFDC29' : '#3EC3FF'} />
                   </Marker>
                 )
               })}

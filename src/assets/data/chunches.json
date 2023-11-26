@@ -1,0 +1,3970 @@
+{
+    "2": {
+        "geometry": {
+            "coordinates": [
+                -46.388284,
+                -23.968652
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda a Sábado: às 8h e 19h",
+                "Domingo: 7h30, 10h30 e 18h"
+            ],
+            "endereco": "Praça João Pessoa, s/nº - São Vicente, SP"
+        }
+    },
+    "267": {
+        "geometry": {
+            "coordinates": [
+                -46.397641899525,
+                -23.968827617085
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h",
+                "Domingo às 9h"
+            ],
+            "endereco": "Rua Tiradentes 412 - Parque Bitaru -São Vicente, SP"
+        }
+    },
+    "113": {
+        "geometry": {
+            "coordinates": [
+                -46.392056,
+                -23.964476
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda e sexta: 19h",
+                "Quinta: 17h",
+                "Sábado: 16h e 18h",
+                "Domingo: 9h, 16h e 18h"
+            ],
+            "endereco": "Av. Capitão-Mor Aguiar, 773, Parque Bitarú - São Vicente, SP"
+        }
+    },
+    "284": {
+        "geometry": {
+            "coordinates": [
+                -46.403779504663,
+                -23.964827075173
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira: 19h30. Domingo: 9h30"
+            ],
+            "endereco": "Rua Caiamoré, 547, Vila Margarida - São Vicente, SP"
+        }
+    },
+    "270": {
+        "geometry": {
+            "coordinates": [
+                -46.386937923327,
+                -23.958395795221
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h"
+            ],
+            "endereco": "Rua Pequerobi, 207, Catipoã - São Vicente, SP"
+        }
+    },
+    "119": {
+        "geometry": {
+            "coordinates": [
+                -46.40907,
+                -23.970026
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta-feira: 19h30",
+                "Sábado: 19h30",
+                "Domingo 9h30 e 19h"
+            ],
+            "endereco": "Rua Alcides Alves de Carvalho, 1430, Vila Margarida  - São Vicente, SP"
+        }
+    },
+    "117": {
+        "geometry": {
+            "coordinates": [
+                -46.375929,
+                -23.964118
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda às 16h",
+                "Terça à Sexta às 19h",
+                "Sábado às 17h",
+                "Domingo às 8h e 18h30"
+            ],
+            "endereco": "Praça Nossa Senhora das Graças, 312, Vila Valença - São Vicente, SP"
+        }
+    },
+    "266": {
+        "geometry": {
+            "coordinates": [
+                -46.395711723216,
+                -23.989235866405
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h",
+                "Domingo às 9h"
+            ],
+            "endereco": "Rua Joaquim Campos 107 - Japuí - São Vicente, SP"
+        }
+    },
+    "269": {
+        "geometry": {
+            "coordinates": [
+                -46.396145902907,
+                -23.955136593444
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h"
+            ],
+            "endereco": "Rua Indaiatuba, 136, Parque São Vicente - São Vicente, SP"
+        }
+    },
+    "122": {
+        "geometry": {
+            "coordinates": [
+                -46.370168,
+                -23.972629
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Quinta, Sexta e Sábado: 18h",
+                "Domingo: 8h, 10h, 18h"
+            ],
+            "endereco": "Av. Manoel da Nóbrega, 256, Itararé - São Vicente, SP"
+        }
+    },
+    "274": {
+        "geometry": {
+            "coordinates": [
+                -46.405000994447,
+                -23.95563570782
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h"
+            ],
+            "endereco": "Rua Stélio Machado, nº 66, Vila Fátima - São Vicente, SP"
+        }
+    },
+    "285": {
+        "geometry": {
+            "coordinates": [
+                -46.408920577588,
+                -23.958325699809
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta-feira: 19h30",
+                "Domingo: 10h30"
+            ],
+            "endereco": "Rua Prof. André Retz, 29, Esplanada dos Barreiros - São Vicente, SP"
+        }
+    },
+    "114": {
+        "geometry": {
+            "coordinates": [
+                -46.382735,
+                -23.952215
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta-feira às 17h (Missa da Saúde)",
+                "Sexta-feira às 19h",
+                "1º Sábado do mês dedicado ao Imaculado Coração de Maria às 17h",
+                "Domingo às 9h"
+            ],
+            "endereco": "Rua Américo Martins dos Santos, 829, Jd Paraíso - São Vicente, SP"
+        }
+    },
+    "279": {
+        "geometry": {
+            "coordinates": [
+                -46.370085412502,
+                -23.95976516293
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 9h30"
+            ],
+            "endereco": "Rua Anita Costa, 617, Vila Voturuá - São Vicente, SP"
+        }
+    },
+    "268": {
+        "geometry": {
+            "coordinates": [
+                -46.392085384336,
+                -23.94672562225
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 18h"
+            ],
+            "endereco": "Rua Machado de Assis, 764, Jóquei Clube - São Vicente , SP"
+        }
+    },
+    "115": {
+        "geometry": {
+            "coordinates": [
+                -46.403922,
+                -23.94851
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda às 18h30",
+                "Quinta às 18:00h adoração ao Santíssimo Sacramento – missa às 19h30",
+                "Sexta às 19h30",
+                "Sábado às 19h30",
+                "Domingo às 9h30 e 19h"
+            ],
+            "endereco": "Praça Nossa Senhora Aparecida, s/nº, Vila Fátima - São Vicente, SP"
+        }
+    },
+    "272": {
+        "geometry": {
+            "coordinates": [
+                -46.4040883935,
+                -23.944043472203
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira às 19h30"
+            ],
+            "endereco": "Rua Dique do Caixetas, 743, Jóquei Clube - São Vicente , SP"
+        }
+    },
+    "271": {
+        "geometry": {
+            "coordinates": [
+                -46.399746639013,
+                -23.941993850473
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h",
+                "Quarta às 19h30"
+            ],
+            "endereco": "Rua Fernando Ferrari, 307, Jóquei Clube - São Vicente, SP"
+        }
+    },
+    "31": {
+        "geometry": {
+            "coordinates": [
+                -46.378385,
+                -23.942621
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Terça, Quarta e Sexta-feira: 19h",
+                "Quinta-Feira: 18h",
+                "Sábado: 19h",
+                "Domingo às 8h, 10h30 (missa das crianças) e às 18h"
+            ],
+            "endereco": "Praça Dr. Bruno Barbosa, 150, Jardim Castelo, Santos, SP"
+        }
+    },
+    "35": {
+        "geometry": {
+            "coordinates": [
+                -46.37839,
+                -23.942619
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado: 17h"
+            ],
+            "endereco": "Praça Dr. Bruno Barbosa, 150, Jardim Castelo, Santos, SP"
+        }
+    },
+    "33": {
+        "geometry": {
+            "coordinates": [
+                -46.385704,
+                -23.940046
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta: 19h30 e Domingo: 10h"
+            ],
+            "endereco": "Caminho São Sebastião, Rádio Clube, Santos, SP"
+        }
+    },
+    "68": {
+        "geometry": {
+            "coordinates": [
+                -46.3557,
+                -23.965107
+            ]
+        },
+        "description": {
+            "horario": [
+                "Todo sábado às 18h"
+            ],
+            "endereco": "Rua da Bica, 100, Morro José Menino - Santos, SP"
+        }
+    },
+    "287": {
+        "geometry": {
+            "coordinates": [
+                -46.406704969273,
+                -23.941831423624
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h"
+            ],
+            "endereco": "Rua: Cel. Júlio Mauricio da Silva, 10 – Jardim Pompeba – São Vicente, SP"
+        }
+    },
+    "273": {
+        "geometry": {
+            "coordinates": [
+                -46.396436693972,
+                -23.938652035312
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h"
+            ],
+            "endereco": "Av. Sambaiatuba, 514, Joquei Clube - São Vicente, SP"
+        }
+    },
+    "260": {
+        "geometry": {
+            "coordinates": [
+                -46.402981455677,
+                -24.006159571566
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 9h45"
+            ],
+            "endereco": "Av. Mascarenhas de Morais – Praça Oswaldo Toschi, s/n. - Canto do Forte - Praia Grande, SP"
+        }
+    },
+    "39": {
+        "geometry": {
+            "coordinates": [
+                -46.3681148,
+                -23.9442968
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda a sábado: 19h (exceto 4ª-feira)",
+                "Domingo: 7h30, 11h, 19h"
+            ],
+            "endereco": "Praça Júlio Dantas, 45, Caneleira, Santos, SP"
+        }
+    },
+    "32": {
+        "geometry": {
+            "coordinates": [
+                -46.385311,
+                -23.937475
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça: 8h"
+            ],
+            "endereco": "R. Prof. Nelson Espíndola Lobato, 96 - Radio Clube, Santos, SP"
+        }
+    },
+    "255": {
+        "geometry": {
+            "coordinates": [
+                -46.422198801609,
+                -23.995601627693
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h e às 19h"
+            ],
+            "endereco": "Av. Irmãos Adorno, 485 - BAIRRO: Tude Bastos - Praia Grande, SP"
+        }
+    },
+    "66": {
+        "geometry": {
+            "coordinates": [
+                -46.35276,
+                -23.965198
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, quinta e sexta às 19h",
+                "Sábado às 16h",
+                "Domingo às 8h, 12h  e 18h"
+            ],
+            "endereco": "Rua Dr. Gaspar Ricardo, 226, José Menino - Santos, SP"
+        }
+    },
+    "67": {
+        "geometry": {
+            "coordinates": [
+                -46.352949,
+                -23.960275
+            ]
+        },
+        "description": {
+            "horario": [
+                "Todo 1º domingo do mês às 10h"
+            ],
+            "endereco": "Rua G, Morro Santa Terezinha - Santos, SP"
+        }
+    },
+    "120": {
+        "geometry": {
+            "coordinates": [
+                -46.414596,
+                -23.940402
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta-feira: 19h30",
+                "Sexta-feira: 19h30",
+                "Domingo: 8h e 19h",
+                "Atendimentos: Quarta e Sexta: 15h às 18h"
+            ],
+            "endereco": "Rua Marcolino Xavier de carvalho, 26, Cidade Náutica - São Vicente, SP"
+        }
+    },
+    "34": {
+        "geometry": {
+            "coordinates": [
+                -46.3767,
+                -23.9349
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado: 17h"
+            ],
+            "endereco": "Morro dos Ilhéus, Santos, SP"
+        }
+    },
+    "124": {
+        "geometry": {
+            "coordinates": [
+                -46.396951,
+                -23.931583
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h",
+                "Terça-feira as 18h (Celebração da Palavra)"
+            ],
+            "endereco": "Rua Jornalista Donato Ribeiro, 33, Ponte Nova, Cubatão, SP"
+        }
+    },
+    "70": {
+        "geometry": {
+            "coordinates": [
+                -46.38101,
+                -23.929888
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo: 8h",
+                "Quarta-feira: 19h"
+            ],
+            "endereco": "Rua Profº Francisco Meira, 85, Jadim São Manoel - Santos, SP"
+        }
+    },
+    "264": {
+        "geometry": {
+            "coordinates": [
+                -46.423173913668,
+                -24.006651433362
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 9h45"
+            ],
+            "endereco": "Av. Guilhermina, 785 - BAIRRO: Jardim Guilhermina - Praia Grande, SP"
+        }
+    },
+    "45": {
+        "geometry": {
+            "coordinates": [
+                -46.346071,
+                -23.954585
+            ]
+        },
+        "description": {
+            "horario": [
+                "2ª a Domingo: 7h"
+            ],
+            "endereco": "Rua Dom Duarte Leopoldo e Silva, 50, Marapé - Santos, SP"
+        }
+    },
+    "58": {
+        "geometry": {
+            "coordinates": [
+                -46.352328,
+                -23.944403
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça: 16h",
+                "Quinta: 19h30",
+                "Primeira Sexta-feira: 16h",
+                "Sábado: 19h",
+                "Domingo: 9h30 e 19h"
+            ],
+            "endereco": "Praça Guadalajara, s/nº, Morro da Nova Cintra - Santos, SP"
+        }
+    },
+    "44": {
+        "geometry": {
+            "coordinates": [
+                -46.345714,
+                -23.953946
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Quarta, Quinta, Sexta-Feira às 19h",
+                "Terça às 16h: Missa da Saúde",
+                "Sábado às 8h e 19h",
+                "Domingo: 8h, 10h, 18h"
+            ],
+            "endereco": "Rua Saturnino de Brito, 112, Marapé, Santos, SP"
+        }
+    },
+    "27": {
+        "geometry": {
+            "coordinates": [
+                -46.341879,
+                -23.964719
+            ]
+        },
+        "description": {
+            "horario": [
+                "Aguardando confirmar"
+            ],
+            "endereco": "Praça Benedito Calixto, 1, Pompéia, Santos, SP"
+        }
+    },
+    "111": {
+        "geometry": {
+            "coordinates": [
+                -46.415511,
+                -24.013298
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda a Sábado às 17h",
+                "Quinta às 17h e 19h30",
+                "Domingo às 8h, 10h, 17h e 19h"
+            ],
+            "endereco": "Av. Castelo Branco, 1598, Boqueirão - Praia Grande, SP"
+        }
+    },
+    "59": {
+        "geometry": {
+            "coordinates": [
+                -46.357585,
+                -23.937487
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 20h"
+            ],
+            "endereco": ", São Paulo"
+        }
+    },
+    "288": {
+        "geometry": {
+            "coordinates": [
+                -46.385707,
+                -23.926058
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h00"
+            ],
+            "endereco": "Rua Djalma Campos Freixo, 23 - Alemoa, Santos, SP"
+        }
+    },
+    "55": {
+        "geometry": {
+            "coordinates": [
+                -46.360875,
+                -23.934946
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo: 9h"
+            ],
+            "endereco": "Av. Nossa Senhora de Fátima, 271, Chico de Paula - Santos, SP"
+        }
+    },
+    "265": {
+        "geometry": {
+            "coordinates": [
+                -46.432776416311,
+                -24.000891817811
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h"
+            ],
+            "endereco": "Rua Elvira Fernandes de Lima, 31074 - BAIRRO: Jardim Guaramar - Praia Grande, SP"
+        }
+    },
+    "3": {
+        "geometry": {
+            "coordinates": [
+                -46.407751,
+                -23.928007
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda-feira, quinta-feira e sexta-feira às 18h",
+                "Quarta-feira às 19h",
+                "Domingo às 8h, 10h e 18h",
+                "Terça-feira às18h (Celebração da Palavra)"
+            ],
+            "endereco": "Praça São Judas Tadeu, 28 , Casqueiro, Cubatão, SP"
+        }
+    },
+    "256": {
+        "geometry": {
+            "coordinates": [
+                -46.43174660329,
+                -24.004113516772
+            ]
+        },
+        "description": {
+            "horario": [
+                "Dmingo às 17h"
+            ],
+            "endereco": "Rua C, 386 - BAIRRO: Jardim Glória - Praia Grande, SP"
+        }
+    },
+    "129": {
+        "geometry": {
+            "coordinates": [
+                -46.401582,
+                -23.924824
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira: 19h",
+                "Quarta-feira: 19h (Celebração da Palavra)"
+            ],
+            "endereco": "Rua Pe. Antônio, 260, Vila dos Pescadores, Cubatão, SP"
+        }
+    },
+    "25": {
+        "geometry": {
+            "coordinates": [
+                -46.339534,
+                -23.95822
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h"
+            ],
+            "endereco": "R. Evaristo da Veiga,177, Campo Grande, Santos, SP"
+        }
+    },
+    "127": {
+        "geometry": {
+            "coordinates": [
+                -46.412952,
+                -23.926216
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira: 19h30"
+            ],
+            "endereco": "R. Darci Moreira César, S/N, Parque São Luiz - Cubatão, SP"
+        }
+    },
+    "60": {
+        "geometry": {
+            "coordinates": [
+                -46.34941,
+                -23.939241
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h"
+            ],
+            "endereco": "Rua Três, 1729 - Vila Progresso, Santos , São Paulo"
+        }
+    },
+    "69": {
+        "geometry": {
+            "coordinates": [
+                -46.354934,
+                -23.933828
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo: 10h",
+                "Segunda-feira: 19h",
+                "Quinta-feira: 19h"
+            ],
+            "endereco": "Rua Itanhaém, 274, Chico de Paula - Santos, SP"
+        }
+    },
+    "125": {
+        "geometry": {
+            "coordinates": [
+                -46.428061,
+                -23.932795
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h",
+                "Quinta-feira às 18h (Celebração da Palavra)"
+            ],
+            "endereco": "Rua Pedro Rosalino de Carvalho, 202, Jardim Caraguatá, Cubatão, SP"
+        }
+    },
+    "71": {
+        "geometry": {
+            "coordinates": [
+                -46.35146,
+                -23.934769
+            ]
+        },
+        "description": {
+            "horario": [
+                "Rua Maria Mercedes Féa, 138, Saboó - Santos, SP"
+            ],
+            "endereco": ""
+        }
+    },
+    "24": {
+        "geometry": {
+            "coordinates": [
+                -46.332325,
+                -23.96172
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábados e Domingos às 18h00"
+            ],
+            "endereco": "Av. Ana Costa,396, Santos, SP"
+        }
+    },
+    "50": {
+        "geometry": {
+            "coordinates": [
+                -46.336308,
+                -23.949243
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta às 16h",
+                "Domingo às 9h"
+            ],
+            "endereco": "Av. Bernardino de Campos, 47, Vila Belmiro, Santos, SP"
+        }
+    },
+    "76": {
+        "geometry": {
+            "coordinates": [
+                -46.331813,
+                -23.960677
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 9h"
+            ],
+            "endereco": "Av. Ana Costa, 373, Gonzaga, Santos, SP"
+        }
+    },
+    "281": {
+        "geometry": {
+            "coordinates": [
+                -46.452647141107,
+                -23.979970940098
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua Brasilia, s/n (Rua Salvador, 30), Quarentenário - São Vicente, SP"
+        }
+    },
+    "254": {
+        "geometry": {
+            "coordinates": [
+                -46.442400118494,
+                -24.00472979591
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 17h"
+            ],
+            "endereco": "Rua José da Costa Monteiro, 31504 - BAIRRO: Vila Sonia - Praia Grande, SP"
+        }
+    },
+    "16": {
+        "geometry": {
+            "coordinates": [
+                -46.339409,
+                -23.942075
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta, Sexta a Sábado: 18h30",
+                "Domingo: 8h e 18h30"
+            ],
+            "endereco": "Av. Rangel Pestana, 397, Santos, SP"
+        }
+    },
+    "22": {
+        "geometry": {
+            "coordinates": [
+                -46.344585,
+                -23.934926
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua Grande, 4525, Morro do Saboó, Santos, SP"
+        }
+    },
+    "49": {
+        "geometry": {
+            "coordinates": [
+                -46.336112,
+                -23.943617
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábados e Domingos às 17h00"
+            ],
+            "endereco": "Av. Dr. Cláudio Luis da Costa, 50, Jabaquara - Santos, SP"
+        }
+    },
+    "251": {
+        "geometry": {
+            "coordinates": [
+                -46.4402792035,
+                -24.011318360205
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 9h45"
+            ],
+            "endereco": "Av. Jorge Hagge, 710 - BAIRRO: Aviação - Praia Grande, SP"
+        }
+    },
+    "46": {
+        "geometry": {
+            "coordinates": [
+                -46.337489,
+                -23.940551
+            ]
+        },
+        "description": {
+            "horario": [
+                "Rua Vasco da Gama, 87, Jabaquara, Santos, SP"
+            ],
+            "endereco": ""
+        }
+    },
+    "47": {
+        "geometry": {
+            "coordinates": [
+                -46.337489,
+                -23.940551
+            ]
+        },
+        "description": {
+            "horario": [
+                "Rua Vasco da Gama, 87, Jabaquara, Santos, SP"
+            ],
+            "endereco": ""
+        }
+    },
+    "121": {
+        "geometry": {
+            "coordinates": [
+                -46.452051,
+                -23.951706
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta-feira: 19h30",
+                "Domingos: 8h e 19h"
+            ],
+            "endereco": "Rua Irmã Maria Rita Souza Brito Lopes Pontes, 509, Bairro Humaitá - São Vicente, SP"
+        }
+    },
+    "74": {
+        "geometry": {
+            "coordinates": [
+                -46.327303,
+                -23.964672
+            ]
+        },
+        "description": {
+            "horario": [
+                "2ª, 3ª e 5ª às 18h30",
+                "Primeira Sexta-feira: 18h30",
+                "Sábado: 18h30",
+                "Domingo: 8h30, 18 e 19h30"
+            ],
+            "endereco": "Rua João Pinho, 15, Boqueirão - Santos, SP"
+        }
+    },
+    "258": {
+        "geometry": {
+            "coordinates": [
+                -46.449888584354,
+                -23.998839955182
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h"
+            ],
+            "endereco": "Rua Olga de Almeida Machado, 33866 - BAIRRO: Vila Sônia - Praia Grande, SP"
+        }
+    },
+    "29": {
+        "geometry": {
+            "coordinates": [
+                -46.327579,
+                -23.960435
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça-feira: 15h.",
+                "Domingo: 19h30.",
+                "Todo dia 16: 15h e 19h30"
+            ],
+            "endereco": "Av. Washington Luiz, 361 – Boqueirão, Santos, SP"
+        }
+    },
+    "259": {
+        "geometry": {
+            "coordinates": [
+                -46.449374380692,
+                -24.000641321342
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "Rua Ali Hussen Daichoum, s/nº - BAIRRO: Vila Sônia - Praia Grande, SP"
+        }
+    },
+    "130": {
+        "geometry": {
+            "coordinates": [
+                -46.422556,
+                -23.919952
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda-feira: 19h"
+            ],
+            "endereco": "Vicente Latrova – CAC, 05, Jardim Nova Republica-Bolsão 7, Cubatão, SP"
+        }
+    },
+    "19": {
+        "geometry": {
+            "coordinates": [
+                -46.337349089188,
+                -23.93786068546
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça, Quinta e Sábado às 19h",
+                "Domingo às 8h30 e às 19h",
+                "Primeira Sexta do mês: 19h",
+                "Primeira Terça do mês (missa da saúde): 16h"
+            ],
+            "endereco": "Largo do São Bento, s/nº, Morro São Bento, Santos, SP"
+        }
+    },
+    "21": {
+        "geometry": {
+            "coordinates": [
+                -46.342866,
+                -23.931551
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua Dois, 2435, Morro da Penha, Santos, SP"
+        }
+    },
+    "280": {
+        "geometry": {
+            "coordinates": [
+                -46.457838170768,
+                -23.979487122132
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua Monte Verde, 580 (perto do restaurante Bom Prato), Quarentenário - São Vicente, SP"
+        }
+    },
+    "15": {
+        "geometry": {
+            "coordinates": [
+                -46.330818,
+                -23.946909
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Quarta e Sexta às 7h30 e 19h",
+                "Terça às 7h30",
+                "Quinta às 7h30, 16h(Missa de Santo Expedito) e 19h",
+                "Sábado às 16h",
+                "Domingo: 7h30, 9h, 17h e 19h",
+                "Toda segunda-feira do mês Missa da Saúde às 16h",
+                "Toda primeira sexta-feira do mês em honra ao Sagrado C. de Jesus - Hora Santa às 15h e Missa às 16h",
+                "Primeiro Sábado do mês, terço em honra ao Imaculado C. de Maria às 15h"
+            ],
+            "endereco": "Av. Ana Costa, 74, Vila Matias, Santos, SP"
+        }
+    },
+    "42": {
+        "geometry": {
+            "coordinates": [
+                -46.323818,
+                -23.96903
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo: 9h"
+            ],
+            "endereco": "Av. Cons. Nébias, 771, Boqueirão - Santos, SP"
+        }
+    },
+    "75": {
+        "geometry": {
+            "coordinates": [
+                -46.323713,
+                -23.963358
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, terça, quarta e sexta às 17h30",
+                "Quinta às 7h30",
+                "Sábado às 18h",
+                "Domingo às 8h"
+            ],
+            "endereco": "Av. Cons. Nébias, 668, Boqueirão, Santos, SP"
+        }
+    },
+    "126": {
+        "geometry": {
+            "coordinates": [
+                -46.425717,
+                -23.918428
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta-feira, Sábado e Domingo às 18h",
+                "Terça-feira e Sexta-feira às 18h (Celebração da Palavra)"
+            ],
+            "endereco": "R. Amaro Manoel dos Santos, 16 - Jd. Nova República - Bolsão 8, Cubatão, SP"
+        }
+    },
+    "20": {
+        "geometry": {
+            "coordinates": [
+                -46.336046,
+                -23.934642
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 11h30"
+            ],
+            "endereco": "Rua Santa Joana D’Arc, 795, Santos, São Paulo"
+        }
+    },
+    "286": {
+        "geometry": {
+            "coordinates": [
+                -46.45832751754,
+                -23.954853369763
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta-Feira: 19h30, Sábado: 19h"
+            ],
+            "endereco": "Av. Céllula Matter, 665, Parque Continental - São Vicente, SP"
+        }
+    },
+    "261": {
+        "geometry": {
+            "coordinates": [
+                -46.447991911597,
+                -24.010547949546
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "Rua Augusto Ribeiro Pacheco, 158 - BAIRRO: Vila Antártica - Praia Grande, SP"
+        }
+    },
+    "283": {
+        "geometry": {
+            "coordinates": [
+                -46.461617430439,
+                -23.982669045199
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "Rua Projetada 40, 90, Jardim Irmã Dolores - São Vicente, SP"
+        }
+    },
+    "12": {
+        "geometry": {
+            "coordinates": [
+                -46.330394,
+                -23.939554
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 16h00"
+            ],
+            "endereco": "Caminho Monsenhor Moreira, 33, Santos, SP"
+        }
+    },
+    "128": {
+        "geometry": {
+            "coordinates": [
+                -46.432943,
+                -23.919834
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Escola Estadual Waldomiro Mariani - Rua Orlando Terras, s/n - Jd. Real - Bolsão 9, Cubatão, São Paulo"
+        }
+    },
+    "53": {
+        "geometry": {
+            "coordinates": [
+                -46.321187,
+                -23.9624
+            ]
+        },
+        "description": {
+            "horario": [
+                "Primeira sexta-feira do mês às 10h"
+            ],
+            "endereco": "Rua Oswaldo Cruz, 197, Boqueirão, Santos, SP"
+        }
+    },
+    "48": {
+        "geometry": {
+            "coordinates": [
+                -46.326811,
+                -23.945146
+            ]
+        },
+        "description": {
+            "horario": [
+                "TERÇA, QUARTA e QUINTA-FEIRA às 18h30",
+                "SEXTA-FEIRA 17h – Missa da Saúde",
+                "SÁBADO às 17h",
+                "DOMINGO às 9h30, 17h."
+            ],
+            "endereco": "Av. Senador Feijó, 444, Vila Mathias, Santos, SP"
+        }
+    },
+    "41": {
+        "geometry": {
+            "coordinates": [
+                -46.319885906372,
+                -23.9740403
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo: 8h, 9h30, 11h, 18h e 19h30",
+                "Segunda-feira: 7h",
+                "Terça-feira: 7h, 9h, 16h e 19h30",
+                "Quarta-feira: 7h e 19h30",
+                "Quinta-feira: 7h e 19h30",
+                "Sexta-feira: 7h",
+                "Sábado: 7h e 20h"
+            ],
+            "endereco": "Av. Bartolomeu de Gusmão, 32, Embaré, Santos, SP"
+        }
+    },
+    "43": {
+        "geometry": {
+            "coordinates": [
+                -46.320106,
+                -23.961701
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado: 18h"
+            ],
+            "endereco": "Rua Nabuco de Araújo, 51, Boqueirão, Santos, São Paulo"
+        }
+    },
+    "252": {
+        "geometry": {
+            "coordinates": [
+                -46.454486818783,
+                -24.00696195459
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "Rua Alécio Messiano, 353 - BAIRRO: Vila São Jorge - Praia Grande, SP"
+        }
+    },
+    "23": {
+        "geometry": {
+            "coordinates": [
+                -46.333651,
+                -23.931568
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça: 12h, 15h",
+                "Quarta e Sábado: 7h30",
+                "Domingos: 8h, 18h"
+            ],
+            "endereco": "Largo Marquês de Monte Alegre, 13, Valongo, Santos, SP"
+        }
+    },
+    "10": {
+        "geometry": {
+            "coordinates": [
+                -46.330724,
+                -23.933907
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda a Sábado: 12h (exceto feriados)"
+            ],
+            "endereco": "Praça Rui Barbosa - Centro -  Santos, SP"
+        }
+    },
+    "63": {
+        "geometry": {
+            "coordinates": [
+                -46.319413,
+                -23.956355
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça-feira: 19h",
+                "Domingo às 10h"
+            ],
+            "endereco": "Av. Conselheiro Rodrigues Alves, 311 - Macuco, Santos, SP"
+        }
+    },
+    "282": {
+        "geometry": {
+            "coordinates": [
+                -46.465161497206,
+                -23.98822815148
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h"
+            ],
+            "endereco": "Rua G, 1078, Rio Negro -  São Vicente, SP"
+        }
+    },
+    "65": {
+        "geometry": {
+            "coordinates": [
+                -46.317109,
+                -23.95578
+            ]
+        },
+        "description": {
+            "horario": [
+                "Rua Batista Pereira, 201, Macuco - Santos, SP"
+            ],
+            "endereco": ""
+        }
+    },
+    "64": {
+        "geometry": {
+            "coordinates": [
+                -46.317034,
+                -23.955939
+            ]
+        },
+        "description": {
+            "horario": [
+                "Avenida Conselheiro Rodrigues Alves, 254, Macuco - Santos, SP"
+            ],
+            "endereco": ""
+        }
+    },
+    "62": {
+        "geometry": {
+            "coordinates": [
+                -46.316117,
+                -23.956003
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda-feira: 15h",
+                "De quarta a sexta-feira: 18h",
+                "Sábado: 19h",
+                "Domingo: 8h e 19h"
+            ],
+            "endereco": "Av. Cons. Rodrigues Alves, 224, Macuco - Santos, São Paulo"
+        }
+    },
+    "14": {
+        "geometry": {
+            "coordinates": [
+                -46.32718,
+                -23.932922
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda à sexta: 7h30, 12h30 e 18h",
+                "Sábado: 7h30 e 17h",
+                "Domingo: 8h, 11h, 18h"
+            ],
+            "endereco": "Praça Barão do Rio Branco, 16, Santos, , SP | CEP: 11010-040"
+        }
+    },
+    "5": {
+        "geometry": {
+            "coordinates": [
+                -46.324408,
+                -23.936822
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, quarta, quinta e sexta: 17h",
+                "Domingo: 9h e 18h"
+            ],
+            "endereco": "Praça Patriarca José Bonifácio, s/nº - Santos, SP"
+        }
+    },
+    "253": {
+        "geometry": {
+            "coordinates": [
+                -46.460877618697,
+                -24.006982755357
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h"
+            ],
+            "endereco": "Rua 08, 505 - BAIRRO: Balneária Maxilândia - Praia Grande, SP"
+        }
+    },
+    "8": {
+        "geometry": {
+            "coordinates": [
+                -46.319319,
+                -23.943801
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado: 18h00",
+                "Domingo: 10h30"
+            ],
+            "endereco": "R. República Portuguesa, 20 - Vila Mathias - Santos, SP"
+        }
+    },
+    "36": {
+        "geometry": {
+            "coordinates": [
+                -46.3107766,
+                -23.9819769
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo: 9h, 17h e 19h",
+                "Segunda: 16h",
+                "Terça, Quinta, sexta e Sábado: 19h"
+            ],
+            "endereco": "Av. Bartolomeu de Gusmão, 114/115 - Aparecida - Santos, SP"
+        }
+    },
+    "118": {
+        "geometry": {
+            "coordinates": [
+                -46.472997,
+                -23.979017
+            ]
+        },
+        "description": {
+            "horario": [
+                "MATRIZ:",
+                "Segunda a Sexta: 7h30 (7h – Laudes)",
+                "Sexta: 19h30 (18h30 às 19h15 – Adoração)",
+                "Domingo: 8h, 12h, 19h30"
+            ],
+            "endereco": "Rua Gilberto Esteves Martins, 711, Jardim Rio Branco - São Vicente, SP"
+        }
+    },
+    "134": {
+        "geometry": {
+            "coordinates": [
+                -46.424182,
+                -23.903858
+            ]
+        },
+        "description": {
+            "horario": [
+                "1° e 3° Sábado do mês às 19h",
+                "2° e 4° Sábado do mês  às 19h e  1° e 3° Quarta-feira do mês às 19h"
+            ],
+            "endereco": "Rua Santo Antônio de Pádua, 18 - Bairro: Vila São José - Cubatão, SP"
+        }
+    },
+    "56": {
+        "geometry": {
+            "coordinates": [
+                -46.30899,
+                -23.966556
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Quarta, Quinta E Sábado às 19h",
+                "Sextas às 16h – Missa da Saúde",
+                "Domingo às 8h, 10h e às 19h"
+            ],
+            "endereco": ""
+        }
+    },
+    "262": {
+        "geometry": {
+            "coordinates": [
+                -46.458642871162,
+                -24.01717331232
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h",
+                "Domingo às 19h"
+            ],
+            "endereco": "Rua Tamoios, s/nº - BAIRRO: Vila Tupi - Praia Grande, SP"
+        }
+    },
+    "37": {
+        "geometry": {
+            "coordinates": [
+                -46.306917,
+                -23.975997
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h(fechada, no momento em função da pandemia)"
+            ],
+            "endereco": "Rua Ernesto de Melo Junior, 130, Aparecida, Santos, SP"
+        }
+    },
+    "61": {
+        "geometry": {
+            "coordinates": [
+                -46.306917,
+                -23.964335
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Terça e Quinta-feira às 18h30",
+                "1ª Sexta às 17h, 19h30",
+                "2a, 3a, 4a, 5a Sexta-Feira às 19h30",
+                "Sábado às 19h",
+                "Domingo: 08h, 10h e 19h"
+            ],
+            "endereco": "Praça Rubens Ferreira Martins, 41, Estuário - Santos, SP"
+        }
+    },
+    "277": {
+        "geometry": {
+            "coordinates": [
+                -46.477110302929,
+                -23.99169652413
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta-Feira - Adoração às 19h/ Missa às 19h30",
+                "Domingo às 10h30"
+            ],
+            "endereco": "Rua Sergipe, 41, Samaritá - São Vicente, SP"
+        }
+    },
+    "263": {
+        "geometry": {
+            "coordinates": [
+                -46.470300842947,
+                -24.009712586627
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 17h"
+            ],
+            "endereco": "Rua Brasil s/nº - Ilha das Caieiras - Praia Grande, SP (localização aproximada)"
+        }
+    },
+    "17": {
+        "geometry": {
+            "coordinates": [
+                -46.302411,
+                -23.973844
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Terça, Sexta e Sábado: às 19h",
+                "Quinta (missa da saúde): 17h",
+                "Domingo: às 7h, 9h e 18h"
+            ],
+            "endereco": "Av. Afonso Pena, 614, Aparecida, Santos, SP"
+        }
+    },
+    "95": {
+        "geometry": {
+            "coordinates": [
+                -46.426316,
+                -23.896542
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Terça e Sexta-Feira: 19h (Terço: 18h15)",
+                "Quinta-Feira: 19h30 (Adoração Passeio do Santíssimo): 18h",
+                "Domingo: 8h (Terço: 7h15), 10h (Terço: 9h15), 17h (Terço: 16h15), 19h"
+            ],
+            "endereco": "Av. Nossa Senhora da Lapa, 676, Vila Nova, Cubatão, SP"
+        }
+    },
+    "177": {
+        "geometry": {
+            "coordinates": [
+                -46.303366,
+                -23.95013
+            ]
+        },
+        "description": {
+            "horario": [
+                "4º domingo às 17h"
+            ],
+            "endereco": "R. Beira Mar, s/ nº , Maré - Guarujá, SP"
+        }
+    },
+    "137": {
+        "geometry": {
+            "coordinates": [
+                -46.442373327727,
+                -23.902727592622
+            ]
+        },
+        "description": {
+            "horario": [
+                "1ª terça-feira do mês às 19h"
+            ],
+            "endereco": "Rua Larissa Coquiner, 378, Ilha Bela, Vila Esperança, Cubatão, SP"
+        }
+    },
+    "133": {
+        "geometry": {
+            "coordinates": [
+                -46.436131,
+                -23.898908
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h30",
+                "Terças às 19h30"
+            ],
+            "endereco": "Avenida 25 de Dezembro, 728, Vila Natal  - Cubatão, SP"
+        }
+    },
+    "173": {
+        "geometry": {
+            "coordinates": [
+                -46.301683067967836,
+                -23.9525434076985
+            ]
+        },
+        "description": {
+            "horario": [
+                "2º e 4º Sábado às 18h"
+            ],
+            "endereco": "Rua da Paz, 02, Prainha - Guarujá, SP"
+        }
+    },
+    "171": {
+        "geometry": {
+            "coordinates": [
+                -46.302242,
+                -23.996761
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h"
+            ],
+            "endereco": "Rua Messias Borges 02 – Santa Cruz dos Navegantes, Guarujá, SP"
+        }
+    },
+    "136": {
+        "geometry": {
+            "coordinates": [
+                -46.434541587126,
+                -23.897022428458
+            ]
+        },
+        "description": {
+            "horario": [
+                "Todas quartas sextas-feiras do mês: 19h30",
+                "Ou em caso o mês tenha cinco semanas, a celebração acontece no 5º sábado."
+            ],
+            "endereco": "Rua Domézio Tomé dos Santos, 24, Costa Muniz - Cubatão, SP"
+        }
+    },
+    "257": {
+        "geometry": {
+            "coordinates": [
+                -46.472106639562,
+                -24.016149425826
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 9h45"
+            ],
+            "endereco": "Praça Presidente Eurico Gaspar Dutra, s/nº - BAIRRO: Vila Tupiry II - Praia Grande, SP"
+        }
+    },
+    "28": {
+        "geometry": {
+            "coordinates": [
+                -46.299584,
+                -23.989624
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda-feira: 18h",
+                "Quinta-feira: 18h",
+                "Sábado: 16h",
+                "Domingo: 9h e às 17h30"
+            ],
+            "endereco": "Av. Almirante Saldanha da Gama, 114 – Ponta da Praia, Santos , SP"
+        }
+    },
+    "30": {
+        "geometry": {
+            "coordinates": [
+                -46.298704,
+                -23.98577
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado: 16h30",
+                "Domingo: 9h e 18h30"
+            ],
+            "endereco": "Rua Dr. Egydio Martins, 182, Ponta da Praia, Santos , SP"
+        }
+    },
+    "99": {
+        "geometry": {
+            "coordinates": [
+                -46.303785,
+                -23.940607
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, terça, quinta, sexta e sábado: 19h30",
+                "Quarta: 19h",
+                "Domingo: 7h, 9h e 19h30"
+            ],
+            "endereco": "Rua Pe. Anchieta, 107, Vicente de Carvalho - Guarujá, SP"
+        }
+    },
+    "116": {
+        "geometry": {
+            "coordinates": [
+                -46.48516,
+                -23.984518
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Terça, Quarta e Sexta-Feira às 19h",
+                "Quinta-feira: 18h",
+                "Domingo: 8h e 19h30"
+            ],
+            "endereco": "Praça Brasília, 421, Parque das Bandeiras - São Vicente, SP"
+        }
+    },
+    "174": {
+        "geometry": {
+            "coordinates": [
+                -46.296626,
+                -23.953674
+            ]
+        },
+        "description": {
+            "horario": [
+                "3º Sábado às 18h. 2ª Terça às 19h30"
+            ],
+            "endereco": "Rua Epitácio Pessoa, 136, Pae-Cará - Guarujá, SP"
+        }
+    },
+    "276": {
+        "geometry": {
+            "coordinates": [
+                -46.48737500039,
+                -23.988002228746
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "Rua José Rodrigues Martins, 365, Nova São Vicente - São Vicente, SP"
+        }
+    },
+    "131": {
+        "geometry": {
+            "coordinates": [
+                -46.464666,
+                -23.913933
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo: 10h30"
+            ],
+            "endereco": "Rua Hildebrando Benedito da Silva, 247, Vale Verde - Cubatão, SP"
+        }
+    },
+    "132": {
+        "geometry": {
+            "coordinates": [
+                -46.44766,
+                -23.898507
+            ]
+        },
+        "description": {
+            "horario": [
+                "Missa  2° e 4° sábado do mês às 19h",
+                "Celebração no 1⁰, 3° e 5°sábado do mês às 19h"
+            ],
+            "endereco": "Avenida Principal, 3211, Vila Esperança, Cubatão, SP"
+        }
+    },
+    "278": {
+        "geometry": {
+            "coordinates": [
+                -46.489238219011,
+                -23.992419291545
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h"
+            ],
+            "endereco": "Rua Geralda Martins de Oliveira, 401, Vila Matias - São Vicente, SP"
+        }
+    },
+    "135": {
+        "geometry": {
+            "coordinates": [
+                -46.458927902166,
+                -23.904971010061
+            ]
+        },
+        "description": {
+            "horario": [
+                "1° e 3° Sábado do mês às 19h",
+                "2° e 4° Sábado do mês às 19h"
+            ],
+            "endereco": "Caminho São Bartolomeu, 240 - Vila Esperança (Ponto final da Vila Esperança) - Cubatão, SP"
+        }
+    },
+    "144": {
+        "geometry": {
+            "coordinates": [
+                -46.423284,
+                -23.885495
+            ]
+        },
+        "description": {
+            "horario": [
+                "Última Sexta-Feira do Mês às 14h"
+            ],
+            "endereco": "Rua Pedro de Toledo, 477, Centro, Cubatão, SP"
+        }
+    },
+    "247": {
+        "geometry": {
+            "coordinates": [
+                -46.481015161763,
+                -24.017057096584
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta às 19h30",
+                "Domingo às 19h"
+            ],
+            "endereco": "Rua Santa Maria de Jesus, 221, Jardim Quietude - Praia Grande, SP"
+        }
+    },
+    "172": {
+        "geometry": {
+            "coordinates": [
+                -46.292201,
+                -23.951537
+            ]
+        },
+        "description": {
+            "horario": [
+                "2º e 4º Domingo às 19h30",
+                "1ª e 3ª Terça às 19h30"
+            ],
+            "endereco": "Oswaldo Cruz, 50, Pae-Cará - Guarujá, SP"
+        }
+    },
+    "275": {
+        "geometry": {
+            "coordinates": [
+                -46.493886595638,
+                -23.979601310045
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 18h"
+            ],
+            "endereco": "Rua Milton Pinto, 470, Gleba II - São Vicente, SP"
+        }
+    },
+    "96": {
+        "geometry": {
+            "coordinates": [
+                -46.420852,
+                -23.882766
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça, quarta e quinta às 12h",
+                "Sexta e sábado às 17h",
+                "Domingo 8h, 10h e 19h"
+            ],
+            "endereco": "Av. Nove de Abril, 1947, Centro, Cubatão, SP"
+        }
+    },
+    "110": {
+        "geometry": {
+            "coordinates": [
+                -46.474677,
+                -24.029004
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda a Quinta: 18h30",
+                "Sexta: 17h",
+                "Sábado: 19h",
+                "Domingo: 8h, 10h, 18h30",
+                "Missa de Verão (1 missa a mais de *Domingo 20h)"
+            ],
+            "endereco": "Praça Roberto Andraus, 11, Cidade Ocian - Praia Grande, SP"
+        }
+    },
+    "13": {
+        "geometry": {
+            "coordinates": [
+                -46.308294,
+                -23.915566
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sextas-feiras: 16h"
+            ],
+            "endereco": "Ilha Diana - Vila de pescadores, Santos, SP"
+        }
+    },
+    "161": {
+        "geometry": {
+            "coordinates": [
+                -46.286519,
+                -23.957136
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 19h30"
+            ],
+            "endereco": "Av. Alvorada, 215 - Jardim Alvorada (Vicente de Carvalho), Guarujá - SP, SP"
+        }
+    },
+    "157": {
+        "geometry": {
+            "coordinates": [
+                -46.284352,
+                -23.975343
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira às 19h30"
+            ],
+            "endereco": "Rua Santo Amaro, 110 - BAIRRO: Sítio Conceiçãozinha - Guarujá, SP"
+        }
+    },
+    "100": {
+        "geometry": {
+            "coordinates": [
+                -46.286147,
+                -23.99304
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, quinta e sexta: 19h",
+                "Sábado: 19h30",
+                "Domingo: 7h30, 9h30, 19h30"
+            ],
+            "endereco": "Av. Manoel da Cruz Michael, 297, Santa Rosa - Guarujá, SP"
+        }
+    },
+    "178": {
+        "geometry": {
+            "coordinates": [
+                -46.286043,
+                -23.951271
+            ]
+        },
+        "description": {
+            "horario": [
+                "1º e 3º domingo às 8h. 2ª e 4ª segunda às 19h30"
+            ],
+            "endereco": "Av. Guarujá, 757, Pae-Cará - Guarujá, SP"
+        }
+    },
+    "179": {
+        "geometry": {
+            "coordinates": [
+                -46.289637503259,
+                -23.938111164063
+            ]
+        },
+        "description": {
+            "horario": [
+                "2º domingo às 17h"
+            ],
+            "endereco": "Rua Lírio do Vale, 21, Parque Estuário, SP"
+        }
+    },
+    "176": {
+        "geometry": {
+            "coordinates": [
+                -46.286875,
+                -23.9436
+            ]
+        },
+        "description": {
+            "horario": [
+                "2º e 4º domingo às 10h. 1ª segunda às 19h30"
+            ],
+            "endereco": "Travessa Lisboa, s/nº , Pae-Cará, Guarujá, SP"
+        }
+    },
+    "139": {
+        "geometry": {
+            "coordinates": [
+                -46.452722,
+                -23.88923
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "Rua Capelinha, 60, Pilões, Cubatão, SP"
+        }
+    },
+    "175": {
+        "geometry": {
+            "coordinates": [
+                -46.289083,
+                -23.934107
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua Otacílio Rodrigues do Santos, 38, Jardim Vila Progresso - Guarujá, SP"
+        }
+    },
+    "250": {
+        "geometry": {
+            "coordinates": [
+                -46.490951524758,
+                -24.018537375366
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta-feira às 19h30",
+                "Sábado às19h",
+                "Domingo às 10h (Celebração)"
+            ],
+            "endereco": "Rua Cora Coralina, 684. BAIRRO: Jardim Anhanguera - Praia Grande , SP"
+        }
+    },
+    "141": {
+        "geometry": {
+            "coordinates": [
+                -46.458746,
+                -23.891153
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "Rua Elias Zarzur, s/nº, Água Fria, Cubatão, SP"
+        }
+    },
+    "162": {
+        "geometry": {
+            "coordinates": [
+                -46.278884,
+                -23.967405
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira às 19h30"
+            ],
+            "endereco": "R. Edvaldo Píres, 150 - Jardim Boa Esperanca (Vicente de Carvalho), Guarujá, SP"
+        }
+    },
+    "97": {
+        "geometry": {
+            "coordinates": [
+                -46.278528,
+                -23.961735
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda-feira: 8h15",
+                "Terça e Quinta-feira: 8h15 e 19h",
+                "Sexta-feira: 8h15",
+                "Sábado: 8h15 e 19h30",
+                "Domingo: 10h00"
+            ],
+            "endereco": "Rua Hélio Ferreira, 598, Jardim Boa Esperança - Guarujá, SP"
+        }
+    },
+    "170": {
+        "geometry": {
+            "coordinates": [
+                -46.278304,
+                -23.989095
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h"
+            ],
+            "endereco": "Rua Pardal 400 – Jardim dos Pássaros, Guarujá, SP"
+        }
+    },
+    "160": {
+        "geometry": {
+            "coordinates": [
+                -46.279445,
+                -23.948359
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h30",
+                "Segunda às 19h30"
+            ],
+            "endereco": "Rua Cafelândia, 86 - Vila Áurea - Guarujá, SP"
+        }
+    },
+    "249": {
+        "geometry": {
+            "coordinates": [
+                -46.488722658006,
+                -24.029610037598
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h (Celebração) e às 17h (Missa).",
+                "Sexta-feira às 19h"
+            ],
+            "endereco": "Rua 26 de Janeiro, 348 - BAIRRO: Vila Mirim - Praia Grande, SP"
+        }
+    },
+    "158": {
+        "geometry": {
+            "coordinates": [
+                -46.277686,
+                -23.954641
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 7h"
+            ],
+            "endereco": "R. Mário Duarte Silva, 57 - Jardim Boa Esperança (Vicente de Carvalho), Guarujá , SP"
+        }
+    },
+    "169": {
+        "geometry": {
+            "coordinates": [
+                -46.279346,
+                -23.999937
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h"
+            ],
+            "endereco": "Rua Benedito Boaventura 295 – Santa Rosa III, Guarujá, SP"
+        }
+    },
+    "248": {
+        "geometry": {
+            "coordinates": [
+                -46.497269273446,
+                -24.020156054507
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça-feira às 19h30",
+                "Sexta-feira às 19h30",
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua Brasil para Cristo, 824 - BAIRRO: Vila Mirim II - Praia Grande, SP"
+        }
+    },
+    "138": {
+        "geometry": {
+            "coordinates": [
+                -46.455065,
+                -23.880623
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua 7, s/nº, Fabril, Cubatão, SP"
+        }
+    },
+    "159": {
+        "geometry": {
+            "coordinates": [
+                -46.271875,
+                -23.972896
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça às 19h30",
+                "Domingo às 8h"
+            ],
+            "endereco": "Rua Waldemar Tangari,316 - Jardim Conceiçãozinha - Guarujá, SP"
+        }
+    },
+    "180": {
+        "geometry": {
+            "coordinates": [
+                -46.285310972032,
+                -23.920153687499
+            ]
+        },
+        "description": {
+            "horario": [
+                "4º Domingo às 8h30"
+            ],
+            "endereco": "R. Rosário Nascimento, 205 -  M. Cabrão, Guarujá, SP"
+        }
+    },
+    "140": {
+        "geometry": {
+            "coordinates": [
+                -46.475635,
+                -23.892482
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua Quatro, 25, Cota 200, Cubatão, SP"
+        }
+    },
+    "190": {
+        "geometry": {
+            "coordinates": [
+                -46.270409333186,
+                -23.984895449125
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h"
+            ],
+            "endereco": "Alameda das Violetas, 296 - Jardim Primavera - Guarujá - SP,"
+        }
+    },
+    "189": {
+        "geometry": {
+            "coordinates": [
+                -46.27574639333,
+                -24.012227429024
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "Rua Eugênio Amado, 90, Tombo  - Guarujá - SP,"
+        }
+    },
+    "241": {
+        "geometry": {
+            "coordinates": [
+                -46.503037667224,
+                -24.027716989752
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça feira às 19h30"
+            ],
+            "endereco": "Rua Cristovão Colombo, 125 – Loja 1, Jardim Aloha - Praia Grande, SP"
+        }
+    },
+    "163": {
+        "geometry": {
+            "coordinates": [
+                -46.262503,
+                -23.979777
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 17h"
+            ],
+            "endereco": "Rua São Lázaro, 107 - BAIRRO: Cachoeirinha, Guarujá, SP"
+        }
+    },
+    "242": {
+        "geometry": {
+            "coordinates": [
+                -46.507350810327,
+                -24.027679089055
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta-feira às 19h30",
+                "Sábado às 19h",
+                "1º domingo do mês às10h (celebração)"
+            ],
+            "endereco": "Rua Agostinho Ferreira, LE 24.349 x Av. Marginal s.nº, Jardim Ribeiropolis - Praia Grande, SP"
+        }
+    },
+    "142": {
+        "geometry": {
+            "coordinates": [
+                -46.391099,
+                -23.851942
+            ]
+        },
+        "description": {
+            "horario": [
+                "1º e 3º Domingo às 10h"
+            ],
+            "endereco": "R. Pref. Armando Cunha, 75, Vila Parisi, Cubatão, SP"
+        }
+    },
+    "143": {
+        "geometry": {
+            "coordinates": [
+                -46.378596,
+                -23.85148
+            ]
+        },
+        "description": {
+            "horario": [
+                "3º Sábado às 16h"
+            ],
+            "endereco": "Avenida Engenheiro Plinio de Queiroz, 70, Jd S Marcos, Cubatão, SP"
+        }
+    },
+    "167": {
+        "geometry": {
+            "coordinates": [
+                -46.258127,
+                -23.976266
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 20h"
+            ],
+            "endereco": "Rua B, nº 28 - BAIRRO: Santa Clara (Cachoeirinha), Guarujá, SP"
+        }
+    },
+    "238": {
+        "geometry": {
+            "coordinates": [
+                -46.505834191604,
+                -24.036221648893
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 16h30",
+                "Quinta-feira às 19h",
+                "Todo dia 19 às 19h"
+            ],
+            "endereco": "Av. Presidente Kennedy, nº 9943, Jardim Balneário Palmeiras - Praia Grande, SP"
+        }
+    },
+    "4": {
+        "geometry": {
+            "coordinates": [
+                -46.257222,
+                -23.993377
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda a sexta: 8h e 19h",
+                "Sábado: 19h",
+                "Domingo: 8h, 9h30, 11h, 17h30, 19h e 20h30"
+            ],
+            "endereco": "Avenida Puglisi - Centro - Guarujá, SP"
+        }
+    },
+    "166": {
+        "geometry": {
+            "coordinates": [
+                -46.255303,
+                -23.976817
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 17h"
+            ],
+            "endereco": "Rua Santo Antônio, nº 6 - BAIRRO: Morro do Engenho, Guarujá, São Paulo"
+        }
+    },
+    "183": {
+        "geometry": {
+            "coordinates": [
+                -46.253534,
+                -23.990834
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta às 16h"
+            ],
+            "endereco": "Rua Quinto Bertoldi, 40, Vila Maia  - Guarujá, SP"
+        }
+    },
+    "168": {
+        "geometry": {
+            "coordinates": [
+                -46.252562,
+                -23.962451
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h",
+                "Sábado às 19h30"
+            ],
+            "endereco": "Rua São João Batista, 85 - BAIRRO: Morrinhos II, Guarujá, SP"
+        }
+    },
+    "165": {
+        "geometry": {
+            "coordinates": [
+                -46.251598,
+                -23.970742
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 17h"
+            ],
+            "endereco": "Rua da paz, s/nº - BAIRRO: Vila Edna, Guarujá, SP"
+        }
+    },
+    "98": {
+        "geometry": {
+            "coordinates": [
+                -46.251043,
+                -23.976338
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta, quinta e sexta às 19h30",
+                "Domingo às 10h e às 19h30"
+            ],
+            "endereco": "Rua Heleno Corrêa de Lima, 365, Vila Zilda - Guarujá, SP"
+        }
+    },
+    "164": {
+        "geometry": {
+            "coordinates": [
+                -46.247008,
+                -23.959014
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 17h e 18h"
+            ],
+            "endereco": "Rua Antonio Baraçal, n.30, Travessa 372 - BAIRRO: Morrinhos III, Guarujá, SP"
+        }
+    },
+    "192": {
+        "geometry": {
+            "coordinates": [
+                -46.2438340469,
+                -23.981467654957
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda às 19h30"
+            ],
+            "endereco": "Rua Maurici Moura, 58, Vila Júlia - Guarujá - SP,"
+        }
+    },
+    "112": {
+        "geometry": {
+            "coordinates": [
+                -46.525025,
+                -24.032754
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta-feira: 18h",
+                "Sexta-feira: 18h45",
+                "Domingo: 8h e 18h"
+            ],
+            "endereco": "Av. Pau Brasil, nº 852 - Jardim Samambaia - Praia Grande, SP | CEP 11712-580"
+        }
+    },
+    "245": {
+        "geometry": {
+            "coordinates": [
+                -46.53157539892,
+                -24.038724086305
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira às 19h",
+                "Segundo domingo do mês às 10h (celebração)"
+            ],
+            "endereco": "Rua Milena Perutch, 601 - BAIRRO: Jardim Melvi - Praia Grande, SP"
+        }
+    },
+    "185": {
+        "geometry": {
+            "coordinates": [
+                -46.233924,
+                -23.980089
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 19h30"
+            ],
+            "endereco": "Rua Paraguai, 810, Jardim Praiano - Guarujá, São Paulo"
+        }
+    },
+    "109": {
+        "geometry": {
+            "coordinates": [
+                -46.528617,
+                -24.045604
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Terça, Quinta e Sexta-feira: 18h",
+                "Sábado: 18h",
+                "Domingo: 9h30, 19h"
+            ],
+            "endereco": "Rua São Benedito, 761, Vila Caiçara - Praia Grande, SP"
+        }
+    },
+    "191": {
+        "geometry": {
+            "coordinates": [
+                -46.224197555888,
+                -23.975401740031
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 18h"
+            ],
+            "endereco": "Rua Uruguai, esquina com Av Manoel Alves Morais, s/nº, Bal. Cidade Atlântica - Guarujá - SP,"
+        }
+    },
+    "181": {
+        "geometry": {
+            "coordinates": [
+                -46.214554,
+                -23.964788
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta do mês às 19h30"
+            ],
+            "endereco": "Rua Assis Chateaubriand, 2009, Pedreira - Guarujá, SP"
+        }
+    },
+    "289": {
+        "geometry": {
+            "coordinates": [
+                -46.206907,
+                -23.97933
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h30"
+            ],
+            "endereco": "Rua Hermenegildo Azevedo, 292, Parque Enseada - Guarujá, SP"
+        }
+    },
+    "239": {
+        "geometry": {
+            "coordinates": [
+                -46.552967976356,
+                -24.058187051325
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h"
+            ],
+            "endereco": "Rua Atibaia, 572, Vila Balneária - Praia Grande, SP"
+        }
+    },
+    "193": {
+        "geometry": {
+            "coordinates": [
+                -46.201671982954,
+                -23.993942346733
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Av. Miguel Stefano, 5560, Tortuga - Guarujá - SP,"
+        }
+    },
+    "243": {
+        "geometry": {
+            "coordinates": [
+                -46.562118733572,
+                -24.061009639457
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 19h30",
+                "Quinta-feira às 19h"
+            ],
+            "endereco": "Av. Marginal, S/nº, Jardim Real - Praia Grande, SP"
+        }
+    },
+    "184": {
+        "geometry": {
+            "coordinates": [
+                -46.192261,
+                -23.972962
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segundas e Sextas às 19h",
+                "Sábados às 8h00 e 19h30",
+                "Domingo às 19h00"
+            ],
+            "endereco": "Av. Cruzeiro do Sul, 732, Bal. Pernambuco  - Guarujá, SP"
+        }
+    },
+    "187": {
+        "geometry": {
+            "coordinates": [
+                -46.184660661656,
+                -23.928826637088
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta-feira às 19h30"
+            ],
+            "endereco": "Rua 01, 160, Perequê II - Guarujá, SP"
+        }
+    },
+    "194": {
+        "geometry": {
+            "coordinates": [
+                -46.177364516047,
+                -23.941360029999
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta às 20h"
+            ],
+            "endereco": "Rua Novo Horizonte, s/nº, Perequê I - Guarujá - SP,"
+        }
+    },
+    "85": {
+        "geometry": {
+            "coordinates": [
+                -46.192434,
+                -23.882119
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h30"
+            ],
+            "endereco": "Av. Andrade Soares, 15, Caruara, Santos, SP"
+        }
+    },
+    "240": {
+        "geometry": {
+            "coordinates": [
+                -46.589353962663,
+                -24.078052736105
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h",
+                "Quinta-feira às 19h"
+            ],
+            "endereco": "Av. presidente Kennedy, 19932 - Praia Grande,  SP"
+        }
+    },
+    "244": {
+        "geometry": {
+            "coordinates": [
+                -46.598613563237,
+                -24.077247517244
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 9h"
+            ],
+            "endereco": "R. Adriano Dias dos Santos - Cidade das Crianças - Praia Grande, SP"
+        }
+    },
+    "246": {
+        "geometry": {
+            "coordinates": [
+                -46.607887167153,
+                -24.08309010121
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarto domingo do mês às 10h",
+                "Quinta-feira às 20h"
+            ],
+            "endereco": "Rua Lucia Barona Barbosa, 110. Bairro: Jardim Alice - Praia Grande, SP"
+        }
+    },
+    "182": {
+        "geometry": {
+            "coordinates": [
+                -46.163327,
+                -23.881362
+            ]
+        },
+        "description": {
+            "horario": [
+                "Última Segunda ás 19h30"
+            ],
+            "endereco": "Rodovia Ariovaldo de Almeida Viana, Km 18,  - Guarujá, SP"
+        }
+    },
+    "86": {
+        "geometry": {
+            "coordinates": [
+                -46.168989,
+                -23.850837
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua Projetada 1,nº 165, Sítio São João, Bertioga, SP"
+        }
+    },
+    "104": {
+        "geometry": {
+            "coordinates": [
+                -46.620476,
+                -24.094942
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda a sábado: 19h",
+                "Domingo: 8h, 10h e 19h",
+                "1ª sexta do mês às 19h (Missa do Sagrado Coração de Jesus)"
+            ],
+            "endereco": "Av. São Paulo, 1679, Centro - Mongaguá, SP"
+        }
+    },
+    "149": {
+        "geometry": {
+            "coordinates": [
+                -46.62427,
+                -24.09666
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quarta-feira às 8h"
+            ],
+            "endereco": "Rua Brasilia Teixeira Seckler, 590 – Centro – Mongaguá, SP"
+        }
+    },
+    "188": {
+        "geometry": {
+            "coordinates": [
+                -46.135429703616,
+                -23.865476847921
+            ]
+        },
+        "description": {
+            "horario": [
+                "1º Domingo às 10h"
+            ],
+            "endereco": "Prainha Branca - Guarujá - SP,"
+        }
+    },
+    "6": {
+        "geometry": {
+            "coordinates": [
+                -46.138305,
+                -23.854299
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça, Quarta, Quinta e Sexta-feira: 19h (OBS:  Na primeira sexta-feira do mês a missa é celebrada às 17h)",
+                "Domingo: 8h, 19h"
+            ],
+            "endereco": "Rua Dr. Júlio Prestes, 69, Centro, Bertioga, SP"
+        }
+    },
+    "155": {
+        "geometry": {
+            "coordinates": [
+                -46.645062,
+                -24.097129
+            ]
+        },
+        "description": {
+            "horario": [
+                "Quinta-feira às 19h",
+                "Domingo às 17h"
+            ],
+            "endereco": "Av. José Cesário Pereira Filho, 1212- B. Vera Cruz- Mongaguá, SP"
+        }
+    },
+    "82": {
+        "geometry": {
+            "coordinates": [
+                -46.148202,
+                -23.828063
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 17h"
+            ],
+            "endereco": "Jardim Vicente de Carvalho, Bertioga, SP"
+        }
+    },
+    "148": {
+        "geometry": {
+            "coordinates": [
+                -46.64585,
+                -24.105103
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta às 19h"
+            ],
+            "endereco": "Rua São Luiz, 1055 – B. Vera Cruz – Mongaguá, SP"
+        }
+    },
+    "77": {
+        "geometry": {
+            "coordinates": [
+                -46.143902,
+                -23.827301
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda-feira às 19h"
+            ],
+            "endereco": "Rua Manoel Gajo, S/N,  Itatinga, Bertioga, SP"
+        }
+    },
+    "156": {
+        "geometry": {
+            "coordinates": [
+                -46.654428,
+                -24.105953
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h"
+            ],
+            "endereco": "R. Belo Horizonte, 670 – CDHU, Mongaguá, São Paulo"
+        }
+    },
+    "150": {
+        "geometry": {
+            "coordinates": [
+                -46.663967,
+                -24.113324
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Av. N. Sra. Rosa Mística, 525 – B. Itaguai – Mongaguá, SP"
+        }
+    },
+    "147": {
+        "geometry": {
+            "coordinates": [
+                -46.668667,
+                -24.10688
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h"
+            ],
+            "endereco": "Av. Jacob Seckler, 1060 - B. Oceanópolis - Mongaguá, SP"
+        }
+    },
+    "152": {
+        "geometry": {
+            "coordinates": [
+                -46.668645,
+                -24.115857
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 10h"
+            ],
+            "endereco": "Rua São Florêncio, 500 – B. Sta. Eugênia, Mongaguá, SP"
+        }
+    },
+    "81": {
+        "geometry": {
+            "coordinates": [
+                -46.116106,
+                -23.826048
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h"
+            ],
+            "endereco": "Rua Cardeal Emile Biayenda, nº 320, Jardim Rio da Praia, Bertioga, SP"
+        }
+    },
+    "90": {
+        "geometry": {
+            "coordinates": [
+                -46.116418,
+                -23.814388
+            ]
+        },
+        "description": {
+            "horario": [
+                "4º Domingo:17h"
+            ],
+            "endereco": "Bairro Mangue Seco, Bertioga, SP"
+        }
+    },
+    "146": {
+        "geometry": {
+            "coordinates": [
+                -46.675872,
+                -24.119097
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h"
+            ],
+            "endereco": "Rua Rosa Sinopoli Sanches, 488, Itaóca - Mongaguá, SP"
+        }
+    },
+    "89": {
+        "geometry": {
+            "coordinates": [
+                -46.110665,
+                -23.815517
+            ]
+        },
+        "description": {
+            "horario": [
+                "2ª Domingo: 17h"
+            ],
+            "endereco": "Rua B, 1480, Jardim Ana Paula, Bertioga, SP"
+        }
+    },
+    "154": {
+        "geometry": {
+            "coordinates": [
+                -46.686946,
+                -24.125059
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira: 19h.",
+                "Domingo: 17h"
+            ],
+            "endereco": "Rua Aymorés, 577 – B. Agenor de Campos – Mongaguá, SP"
+        }
+    },
+    "88": {
+        "geometry": {
+            "coordinates": [
+                -46.093708,
+                -23.819146
+            ]
+        },
+        "description": {
+            "horario": [
+                "3º Domingo: 17h"
+            ],
+            "endereco": "R. Augusto Ribeiro Pacheco, 352, Jardim Rafael, Bertioga, SP"
+        }
+    },
+    "145": {
+        "geometry": {
+            "coordinates": [
+                -46.70563,
+                -24.116301
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 19h"
+            ],
+            "endereco": "Rua Santa Cecília, 2433 – Balneário Triesse – Mongaguá, São Paulo"
+        }
+    },
+    "80": {
+        "geometry": {
+            "coordinates": [
+                -46.086302246577,
+                -23.802110545361
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 19h30"
+            ],
+            "endereco": "Bairro Vista Linda - Bertioga, São Paulo"
+        }
+    },
+    "151": {
+        "geometry": {
+            "coordinates": [
+                -46.711623,
+                -24.120991
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 10h"
+            ],
+            "endereco": "Rua D no. 780 – B. Itaguaí, Mongaguá, SP"
+        }
+    },
+    "153": {
+        "geometry": {
+            "coordinates": [
+                -46.707157,
+                -24.135574
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h"
+            ],
+            "endereco": "Av. Canadá, 570 – B. Flórida Mirim – Mongaguá, SP"
+        }
+    },
+    "227": {
+        "geometry": {
+            "coordinates": [
+                -46.718846245787,
+                -24.143048421412
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h"
+            ],
+            "endereco": "Rua Prefeita Esp'azia Becchelli, 1210 BAIRRO: Loty - Itanhaém, SP"
+        }
+    },
+    "87": {
+        "geometry": {
+            "coordinates": [
+                -46.058756,
+                -23.806156
+            ]
+        },
+        "description": {
+            "horario": [
+                "4ª segunda às 19h30"
+            ],
+            "endereco": "Bairro Albatroz, Bertioga, SP"
+        }
+    },
+    "91": {
+        "geometry": {
+            "coordinates": [
+                -46.056889,
+                -23.806781
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-Feira:19h",
+                "Domingo:10h30"
+            ],
+            "endereco": "R. Professora Diva Fialho Duarte, 346, Jardim Indaiá, Bertioga, SP"
+        }
+    },
+    "231": {
+        "geometry": {
+            "coordinates": [
+                -46.722148377657,
+                -24.14965806223
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 16h"
+            ],
+            "endereco": ""
+        }
+    },
+    "290": {
+        "geometry": {
+            "coordinates": [
+                -46.051422,
+                -23.81088
+            ]
+        },
+        "description": {
+            "horario": [
+                "1ª Domingo: 17h"
+            ],
+            "endereco": "Avenida do Telégrafo, S/N, Jardim Idaiá, Bertioga -, SP"
+        }
+    },
+    "229": {
+        "geometry": {
+            "coordinates": [
+                -46.754755582193,
+                -24.1565985615
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 11h"
+            ],
+            "endereco": "Av. Lucas Nogueira Garcez, 792 - Suarão (Lado Morro) - Itanhaém, SP"
+        }
+    },
+    "103": {
+        "geometry": {
+            "coordinates": [
+                -46.75267104296068,
+                -24.162231797899988
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda, Quarta e Sábado às 19h",
+                "Sexta às 16h",
+                "Domingo às 9h e 19h"
+            ],
+            "endereco": "Praça Nossa Senhora de Sion, 99, Suarão - Itanhaém, São Paulo"
+        }
+    },
+    "79": {
+        "geometry": {
+            "coordinates": [
+                -46.022672,
+                -23.791406
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 20h, Domingo às 10h"
+            ],
+            "endereco": "R. Alameda do Frevo, nº 100, Módulo 28, Riviera, Bertioga, SP"
+        }
+    },
+    "228": {
+        "geometry": {
+            "coordinates": [
+                -46.769025622432,
+                -24.157538835933
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 16h30"
+            ],
+            "endereco": ""
+        }
+    },
+    "226": {
+        "geometry": {
+            "coordinates": [
+                -46.771761,
+                -24.161207
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira às 19h"
+            ],
+            "endereco": ""
+        }
+    },
+    "230": {
+        "geometry": {
+            "coordinates": [
+                -46.779206251992,
+                -24.155494289465
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 7h30"
+            ],
+            "endereco": ""
+        }
+    },
+    "216": {
+        "geometry": {
+            "coordinates": [
+                -46.773180319113,
+                -24.167371719631
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h"
+            ],
+            "endereco": ""
+        }
+    },
+    "92": {
+        "geometry": {
+            "coordinates": [
+                -45.998096,
+                -23.795207
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 11h30."
+            ],
+            "endereco": "R. Teotônio Vilela, s/nº Jardim São Lourenço, Bertioga, SP"
+        }
+    },
+    "224": {
+        "geometry": {
+            "coordinates": [
+                -46.777734735761,
+                -24.178144641756
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda-feira às 19h",
+                "Quinta-feira: 19h",
+                "Sexta-feira: 19h",
+                "Domingo: 10h e 19h",
+                "Adoração ao Ssmo. Sacramento – 1ª sexta-feira do mês às 18h"
+            ],
+            "endereco": ""
+        }
+    },
+    "223": {
+        "geometry": {
+            "coordinates": [
+                -46.785494759973,
+                -24.169555084249
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda-feira às 19h"
+            ],
+            "endereco": ""
+        }
+    },
+    "221": {
+        "geometry": {
+            "coordinates": [
+                -46.794332936058,
+                -24.160540518177
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "Rua Sebastião Ferreira de Azevedo, 818 - BAIRRO: Jardim Oásis - Itanhaém, SP"
+        }
+    },
+    "219": {
+        "geometry": {
+            "coordinates": [
+                -46.789771904025,
+                -24.178699478424
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 16h"
+            ],
+            "endereco": "Rua Maria Antonia Lopes Leitão, 151 - BAIRRO: Jadim Ivoty - Itanhaém, SP"
+        }
+    },
+    "218": {
+        "geometry": {
+            "coordinates": [
+                -46.788885488434,
+                -24.183393928722
+            ]
+        },
+        "description": {
+            "horario": [
+                "Fechada para obras e manutenção."
+            ],
+            "endereco": "Praça Narciso de Andrade, s/nº. -BAIRRO: Centro - Itanhaém, SP"
+        }
+    },
+    "225": {
+        "geometry": {
+            "coordinates": [
+                -46.82184387989,
+                -24.151661296972
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 16h"
+            ],
+            "endereco": "Av. Conceição de Itanhaém, 230 - BAIRRO: Jardim Coronel - Itanhaém, SP"
+        }
+    },
+    "222": {
+        "geometry": {
+            "coordinates": [
+                -46.821904865537,
+                -24.151648467065
+            ]
+        },
+        "description": {
+            "horario": [
+                "Segunda-feira às 19h"
+            ],
+            "endereco": "Avenida Conceição de Itanhaém, 230 - BAIRRO: Jardim Coronel - Itanhaém, SP"
+        }
+    },
+    "220": {
+        "geometry": {
+            "coordinates": [
+                -46.817096270266,
+                -24.176623973333
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 17h"
+            ],
+            "endereco": "Rua José João Bechir, 220 - BAIRRO: Jardim América - Itanhaém, SP"
+        }
+    },
+    "102": {
+        "geometry": {
+            "coordinates": [
+                -46.809964,
+                -24.191656
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça, Quarta e Sexta-Feira às 19h",
+                "15h - Adoração ao Santíssimo Sacramento, seguida de atendimento de confissões: 15h às 17h30. Missa: 19h30",
+                "8h, 19h"
+            ],
+            "endereco": "Rua Oscar Pereira da Silva, 168 - Belas Artes - Itanhaém, SP"
+        }
+    },
+    "217": {
+        "geometry": {
+            "coordinates": [
+                -46.826660146625,
+                -24.176690749038
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h"
+            ],
+            "endereco": "Rua José Augusto Rodrigues, s/nº -BAIRRO: Umuarama - Itanhaém, SP"
+        }
+    },
+    "233": {
+        "geometry": {
+            "coordinates": [
+                -46.824318308732,
+                -24.18953714207
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": ""
+        }
+    },
+    "83": {
+        "geometry": {
+            "coordinates": [
+                -45.939512,
+                -23.774341
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h30"
+            ],
+            "endereco": "Guaratuba, Bertioga, SP"
+        }
+    },
+    "234": {
+        "geometry": {
+            "coordinates": [
+                -46.845904029262,
+                -24.209985972759
+            ]
+        },
+        "description": {
+            "horario": [
+                "Terça e Sábado às 19h30"
+            ],
+            "endereco": "Av: Tamoios, 654 - Bairro: Balneário Tupy - Itanhaém, SP"
+        }
+    },
+    "237": {
+        "geometry": {
+            "coordinates": [
+                -46.862821298294,
+                -24.2230294482
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h"
+            ],
+            "endereco": ""
+        }
+    },
+    "236": {
+        "geometry": {
+            "coordinates": [
+                -46.866351734388,
+                -24.217871248126
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": "R. José Domiciano da Silva, 1003 - Bairro: Jardim Edel - Itanhaém, SP"
+        }
+    },
+    "84": {
+        "geometry": {
+            "coordinates": [
+                -45.875022,
+                -23.760454
+            ]
+        },
+        "description": {
+            "horario": [
+                "a definir"
+            ],
+            "endereco": "Bairro Itaguá, Bertioga, SP"
+        }
+    },
+    "235": {
+        "geometry": {
+            "coordinates": [
+                -46.882736929379,
+                -24.235915125926
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h"
+            ],
+            "endereco": ""
+        }
+    },
+    "232": {
+        "geometry": {
+            "coordinates": [
+                -46.890363845288,
+                -24.244371572342
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sexta-feira às 19h30",
+                "Domingos às 8h"
+            ],
+            "endereco": ""
+        }
+    },
+    "93": {
+        "geometry": {
+            "coordinates": [
+                -45.865065,
+                -23.746395
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h"
+            ],
+            "endereco": "Bairro  Morada da Praia, Bertioga, SP"
+        }
+    },
+    "78": {
+        "geometry": {
+            "coordinates": [
+                -45.854566,
+                -23.748742
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "Av. Deputado Emílio Justo, Quadra 17, Lote 35 - Boraceia, Bertioga, SP"
+        }
+    },
+    "205": {
+        "geometry": {
+            "coordinates": [
+                -46.951312654184,
+                -24.252450848091
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 18h00"
+            ],
+            "endereco": "Rua David Sabino Soares, 1195, Recreio Santista - Peruíbe, SP"
+        }
+    },
+    "214": {
+        "geometry": {
+            "coordinates": [
+                -46.951908374845,
+                -24.263550584329
+            ]
+        },
+        "description": {
+            "horario": [
+                "Toda 3° terça feira às 9h"
+            ],
+            "endereco": "Rua Genoveva Alves da Silva, 245 - Estância Antonio Novaes - Peruíbe, SP"
+        }
+    },
+    "215": {
+        "geometry": {
+            "coordinates": [
+                -46.950334977558,
+                -24.267821959684
+            ]
+        },
+        "description": {
+            "horario": [
+                "Toda 4ª terça-feira às 18h"
+            ],
+            "endereco": "Av. Darcy Fonseca, Nº 181 - BAIRRO dos Prados, Peruíbe, SP"
+        }
+    },
+    "212": {
+        "geometry": {
+            "coordinates": [
+                -46.962194591204,
+                -24.252783180714
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 11h"
+            ],
+            "endereco": "Estrada da Jaqueira, s/nº - BAIRRO: Vatrapuã - Peruíbe, SP"
+        }
+    },
+    "210": {
+        "geometry": {
+            "coordinates": [
+                -46.95214943916,
+                -24.273742123742
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 7h00"
+            ],
+            "endereco": "Rua José Arranjo, 91 - BAIRRO: Prados - Peruíbe, SP"
+        }
+    },
+    "204": {
+        "geometry": {
+            "coordinates": [
+                -46.960055655844,
+                -24.263714815702
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h30"
+            ],
+            "endereco": "venida Tota, 80, Jardim dos Prados - Peruíbe, SP"
+        }
+    },
+    "207": {
+        "geometry": {
+            "coordinates": [
+                -46.968272233929,
+                -24.269582251148
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h00"
+            ],
+            "endereco": "Av. Josedy, 2755 - Balneário Josedy - Peruíbe, SP"
+        }
+    },
+    "206": {
+        "geometry": {
+            "coordinates": [
+                -46.976941227385,
+                -24.264304467623
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 16h30"
+            ],
+            "endereco": "Estrada Armando Cunha, Km 2, Recreio Santista - Peruíbe, SP"
+        }
+    },
+    "209": {
+        "geometry": {
+            "coordinates": [
+                -46.985367577724,
+                -24.255758862314
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 7h00"
+            ],
+            "endereco": "Av. Um, 510 - BAIRRO: Vila Peruíbe - Peruíbe, SP"
+        }
+    },
+    "211": {
+        "geometry": {
+            "coordinates": [
+                -46.987642661787,
+                -24.257248642124
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 9h30"
+            ],
+            "endereco": "Estrada Armando Cunha, Km 14 - BAIRRO: Bambú - Peruíbe, SP"
+        }
+    },
+    "208": {
+        "geometry": {
+            "coordinates": [
+                -46.989110066132,
+                -24.256062950115
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h30"
+            ],
+            "endereco": "Estrada Armando Cunha – Km 5,5 – Fazenda São Francisco - BAIRRO: São Francisco - Peruíbe, SP"
+        }
+    },
+    "196": {
+        "geometry": {
+            "coordinates": [
+                -46.974397678341,
+                -24.290244096314
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h",
+                "Quarta-feira às 19h"
+            ],
+            "endereco": "Rua Cantidio Nogueira Sampaio, 100, Jardim Imperador II Peruíbe, SP"
+        }
+    },
+    "202": {
+        "geometry": {
+            "coordinates": [
+                -46.980348179675,
+                -24.303259846939
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h",
+                "Quinta-feira às 19h"
+            ],
+            "endereco": "Rua Rio Negro esquina com Almirante Tamandaré, Nova Peruíbe - Peruíbe, SP"
+        }
+    },
+    "195": {
+        "geometry": {
+            "coordinates": [
+                -47.000234361258,
+                -24.30547233363
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h",
+                "Sábado às 20h",
+                "Terça-feira às 19h"
+            ],
+            "endereco": "Rua Tiradentes, 479, Jardim Ribamar - Peruíbe, SP"
+        }
+    },
+    "200": {
+        "geometry": {
+            "coordinates": [
+                -47.004615971377,
+                -24.310326366125
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 19h",
+                "Quarta-feira às 19h"
+            ],
+            "endereco": "Rua Exp. Ten. João C. de Albuquerque, 443, Jardim Peruíbe, Peruíbe, SP"
+        }
+    },
+    "108": {
+        "geometry": {
+            "coordinates": [
+                -46.997693,
+                -24.321785
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 8h, 17h e 19h",
+                "Terça e Sexta às 19h",
+                "Sábado às 18h30",
+                "Toda Quarta às 15h (missa da saúde)"
+            ],
+            "endereco": "Praça Monsenhor Lino dos Passos, 52, Centro - Peruíbe, SP"
+        }
+    },
+    "213": {
+        "geometry": {
+            "coordinates": [
+                -47.015418636732,
+                -24.300552017034
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 17h"
+            ],
+            "endereco": "Rua Araraquara, 2270 - BAIRRO: Caraguava - Peruíbe, SP"
+        }
+    },
+    "201": {
+        "geometry": {
+            "coordinates": [
+                -47.007822856795,
+                -24.315222463044
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 19h",
+                "Quinta-feira às 19h"
+            ],
+            "endereco": "Av. Mário de Aguiar, 283, Jardim Brasil, Peruíbe, SP"
+        }
+    },
+    "105": {
+        "geometry": {
+            "coordinates": [
+                -47.021556,
+                -24.294675
+            ]
+        },
+        "description": {
+            "horario": [
+                "1ª Sexta-Feira do mês – Missa do Sagrado Coração de Jesus: 19h30",
+                "Segunda a Sexta-Feira: 7h",
+                "Quinta-Feira: 19h",
+                "Domingo: 8h30 e 19h"
+            ],
+            "endereco": "Rua Santa Lúcia Filippini, 82, Caraguava - Peruíbe, SP"
+        }
+    },
+    "203": {
+        "geometry": {
+            "coordinates": [
+                -47.021044516453,
+                -24.307581754479
+            ]
+        },
+        "description": {
+            "horario": [
+                "Sábado às 19h"
+            ],
+            "endereco": "Rua Seringueira, 331, Estância dos Eucaliptos, Peruíbe, SP"
+        }
+    },
+    "197": {
+        "geometry": {
+            "coordinates": [
+                -47.016582101808,
+                -24.3238607726
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h",
+                "3ª quinta-feira do mês às 19h"
+            ],
+            "endereco": "Rua Firmino P. Santos, 322, (Escola) – Jardim Veneza, Peruíbe, SP"
+        }
+    },
+    "198": {
+        "geometry": {
+            "coordinates": [
+                -47.025051680371,
+                -24.361640207559
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h",
+                "Sexta-feira às 19h"
+            ],
+            "endereco": "Rua Luzia (antiga 22), 1069, Guaraú - Peruíbe, SP"
+        }
+    },
+    "199": {
+        "geometry": {
+            "coordinates": [
+                -47.070114352121,
+                -24.43967826042
+            ]
+        },
+        "description": {
+            "horario": [
+                "Domingo às 10h",
+                "Quinta-feira às 19h"
+            ],
+            "endereco": "Estrada do Una , Guaraú - Peruíbe, SP"
+        }
+    }
+}

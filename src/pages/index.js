@@ -20,7 +20,7 @@ export function MainStack () {
     <Stack.Navigator initialRouteName='Home'>
       <Stack.Screen name="Home" component={HomePage} options={{ ...headerOptions, headerTitleAlign: 'center', headerLeft: HomeButoon }} />
       <Stack.Screen name="Tutorial" component={TutorialPage} options={{ ...headerOptions, headerTitle: 'Como usar o aplicativo', headerLeft: BackButoon }} />
-      <Stack.Screen name="Mapa" component={MapPage} />
+      <Stack.Screen name="Mapa" component={MapPage} options={{ headerBackTitle: 'Voltar' }} />
     </Stack.Navigator>
   )
 }
