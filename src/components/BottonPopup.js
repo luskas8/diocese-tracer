@@ -27,7 +27,7 @@ const BottonPopup = ({ children, chunch }) => {
       >
         <View style={styles.contentContainer}>
           {!chunch && (
-            <Text>Selecione uma paróquia</Text>
+            <Text style={styles.name}>Selecione uma paróquia</Text>
           )}
           {chunch && (
             <View>

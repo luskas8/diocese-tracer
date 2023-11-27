@@ -1,7 +1,7 @@
 import { Picker } from '@react-native-picker/picker'
 import { requestForegroundPermissionsAsync } from 'expo-location'
 import { useEffect, useState } from 'react'
-import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
+import { Image, Pressable, StyleSheet, Text, View, Platform } from 'react-native'
 import citys from '../assets/data/citys.json'
 import DefaultLayout from '../layouts/default'
 
@@ -35,6 +35,7 @@ export default function MainPanel ({ navigation: { navigate } }) {
             <Image source={require('../assets/images/splitter.png')} />
           </View>
           <Picker
+            style={Platform.OS === 'ios' ? styles.selectIOS : styles.select}
             selectedValue={selectedCity}
             onValueChange={(itemValue) =>
               setSelectedCity(itemValue)
@@ -45,7 +46,7 @@ export default function MainPanel ({ navigation: { navigate } }) {
               return <Picker.Item key={city} label={city} value={citys[city]} />
             })}
           </Picker>
-          <Pressable style={{ ...styles.button, alignSelf: 'center' }} onPress={() => navigate('Mapa', { cityParam: selectedCity })}>
+          <Pressable style={{ ...styles.button, alignSelf: 'center' }} onPress={() => navigate('Mapa', { cityParam: selectedCity === '' ? null : selectedCity })}>
             <Text style={styles.text}>Enviar</Text>
           </Pressable>
         </View>
@@ -136,5 +137,20 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     elevation: 3,
     backgroundColor: '#3F88EF'
+  },
+  select: {
+    color: '#000',
+    backgroundColor: '#FFF',
+    borderRadius: 2,
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+    marginBottom: 16
+  },
+  selectIOS: {
+    color: '#000',
+    backgroundColor: '#FFF',
+    borderRadius: 2,
+    paddingHorizontal: 6,
+    marginBottom: 16
   }
 })

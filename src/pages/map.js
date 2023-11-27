@@ -2,7 +2,7 @@ import axios from 'axios'
 import DefaultLayout from '../layouts/default'
 
 import { getCurrentPositionAsync } from 'expo-location'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { ActivityIndicator, StyleSheet, View } from 'react-native'
 import MapView, { Marker } from 'react-native-maps'
 import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons'
@@ -16,6 +16,7 @@ export default function Map ({ route, navigation }) {
   const [city, setCity] = useState(cityParam)
   const [churchs, setChurchs] = useState([])
   const [selectedChurch, setSelectedChurch] = useState(null)
+  const mapRef = useRef(null)
 
   async function getLocation () {
     const currentLocation = await getCurrentPositionAsync()
@@ -106,6 +107,22 @@ export default function Map ({ route, navigation }) {
     }
   }, [location, city])
 
+  const centerMap = useCallback(() => {
+    if (churchs) {
+      setTimeout(() => {
+        mapRef.current?.fitToElements({
+          animated: true,
+          edgePadding: {
+            bottom: 50,
+            left: 50,
+            right: 50,
+            top: 50
+          }
+        })
+      }, 10)
+    }
+  }, [mapRef, churchs])
+
   if (!location || !city || churchs.length <= 0) {
     return (
       <View style={styles.container}>
@@ -130,6 +147,8 @@ export default function Map ({ route, navigation }) {
                 latitudeDelta: 0.305,
                 longitudeDelta: 0.305
               }}
+              ref={mapRef}
+              onMapReady={centerMap}
             >
               <Marker
                 title='Você está aqui'
