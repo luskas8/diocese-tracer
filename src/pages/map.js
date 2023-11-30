@@ -7,14 +7,14 @@ import { ActivityIndicator, StyleSheet, Text, View } from 'react-native'
 import MapView, { Marker } from 'react-native-maps'
 import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 import citys from '../assets/data/citys.json'
-import chunches from '../assets/data/chunches.json'
+import churchesJson from '../assets/data/churches.json'
 import BottonPopup from '../components/BottonPopup'
 
 export default function Map ({ route, navigation }) {
   const { cityParam } = route.params || null
   const [location, setLocation] = useState(null)
   const [city, setCity] = useState(cityParam)
-  const [churchs, setChurchs] = useState([])
+  const [churches, setChurches] = useState([])
   const [selectedChurch, setSelectedChurch] = useState(null)
   const mapRef = useRef(null)
 
@@ -35,7 +35,7 @@ export default function Map ({ route, navigation }) {
     setCity(citys[data.address.town] || null)
   }
 
-  async function getNerbyChurchs (city) {
+  async function getNearbyChurches (city) {
     const { latitude, longitude } = location.coords
 
     await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
@@ -51,7 +51,7 @@ export default function Map ({ route, navigation }) {
         'Content-Type': 'application/x-www-form-urlencoded'
       }
     })
-    const response3 = await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
+    const response = await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
       latitude,
       longitude,
       format: 'json',
@@ -65,25 +65,25 @@ export default function Map ({ route, navigation }) {
       }
     })
 
-    const { features } = response3.data
+    const { features } = response.data
 
-    const churchs = features.map((church) => {
+    const churches = features.map((church) => {
       const { id, properties: { name, distance } } = church
 
       return {
         id,
-        ...chunches[id],
+        ...churchesJson[id],
         distance,
         name
       }
     })
 
-    setChurchs(churchs)
+    setChurches(churches)
   }
 
-  async function selectChunch (id) {
+  function selectChurch (id) {
     if (id) {
-      const church = churchs.find(church => church.id === id)
+      const church = churches.find(church => church.id === id)
       setSelectedChurch(church)
     } else {
       setSelectedChurch(null)
@@ -103,12 +103,12 @@ export default function Map ({ route, navigation }) {
   useEffect(() => {
     if (location && city) {
       // console.log('buscando igrejas')
-      getNerbyChurchs(city)
+      getNearbyChurches(city)
     }
   }, [location, city])
 
   const centerMap = useCallback(() => {
-    if (churchs) {
+    if (churches) {
       setTimeout(() => {
         mapRef.current?.fitToElements({
           animated: true,
@@ -121,9 +121,9 @@ export default function Map ({ route, navigation }) {
         })
       }, 10)
     }
-  }, [mapRef, churchs])
+  }, [mapRef, churches])
 
-  if (!location || !city || churchs.length <= 0) {
+  if (!location || !city || churches.length <= 0) {
     return (
       <View style={{ ...styles.container, alignItems: 'center' }}>
         <ActivityIndicator size='large' color='#0000ff' />
@@ -136,11 +136,11 @@ export default function Map ({ route, navigation }) {
 
   return (
     <DefaultLayout>
-      <BottonPopup chunch={selectedChurch}>
+      <BottonPopup church={selectedChurch}>
         <View style={styles.container}>
           {location && (
             <MapView
-              onMarkerDeselect={() => selectChunch(null)}
+              onMarkerDeselect={() => selectChurch(null)}
               style={styles.maps}
               initialRegion={{
                 latitude: location.coords.latitude,
@@ -158,15 +158,15 @@ export default function Map ({ route, navigation }) {
                   longitude: location.coords.longitude
                 }}
               />
-              {churchs.map((church) => {
+              {churches.map((church) => {
               // /*, properties: { distance, icon, name, url } */
                 const { id, geometry } = church
 
                 return (
                   <Marker
                     key={id}
-                    onPress={() => selectChunch(id)}
-                    onDeselect={() => selectChunch(null)}
+                    onPress={() => selectChurch(id)}
+                    onDeselect={() => selectChurch(null)}
                     coordinate={{
                       latitude: geometry.coordinates[1],
                       longitude: geometry.coordinates[0]

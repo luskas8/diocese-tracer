@@ -3,7 +3,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
 import { getApps } from 'react-native-map-link'
 
-const BottonPopup = ({ children, chunch }) => {
+const BottonPopup = ({ children, church }) => {
   const [availableApps, updateAvailableApps] = useState([])
   // ref
   const bottomSheetRef = useRef(null)
@@ -13,25 +13,25 @@ const BottonPopup = ({ children, chunch }) => {
 
   // callbacks
   // const handleSheetChanges = useCallback((index) => {
-  //   if (!chunch) return
+  //   if (!church) return
   //   console.log('handleSheetChanges', index)
   // }, [])
 
   useEffect(() => {
-    if (!chunch) {
+    if (!church) {
       return
     }
 
     (async () => {
       const apps = await getApps({
-        latitude: chunch.geometry.coordinates[1],
-        longitude: chunch.geometry.coordinates[0],
-        title: chunch.name,
+        latitude: church.geometry.coordinates[1],
+        longitude: church.geometry.coordinates[0],
+        title: church.name,
         googleForceLatLon: true
       })
       updateAvailableApps(apps)
     })()
-  }, [chunch])
+  }, [church])
 
   // renders
   return (
@@ -40,16 +40,16 @@ const BottonPopup = ({ children, chunch }) => {
       <BottomSheet
         ref={bottomSheetRef}
         index={0}
-        snapPoints={!chunch ? ['15%'] : snapPoints}
+        snapPoints={!church ? ['15%'] : snapPoints}
         // onChange={handleSheetChanges}
       >
         <View style={styles.contentContainer}>
-          {!chunch && (
+          {!church && (
             <Text style={styles.name}>Selecione uma paróquia</Text>
           )}
-          {chunch && (
+          {church && (
             <View>
-              <Text style={styles.name}>{chunch.name} - {chunch.distance}</Text>
+              <Text style={styles.name}>{church.name} - {church.distance}</Text>
               <Text style={styles.itemTitle}>Como chegar:</Text>
               <View style={styles.directionContainer}>
                 {availableApps.map(({ icon, name, id, open }) => (
@@ -60,9 +60,9 @@ const BottonPopup = ({ children, chunch }) => {
                 ))}
               </View>
               <Text style={styles.itemTitle}>Horários:</Text>
-              {chunch.description.horario.map((horario) => <Text style={styles.item} key={horario}>{horario}</Text>)}
+              {church.description.horario.map((horario) => <Text style={styles.item} key={horario}>{horario}</Text>)}
               <Text style={{ ...styles.itemTitle, marginTop: 16 }} >Endereço:</Text>
-              <Text style={styles.item}>{chunch.description.endereco}</Text>
+              <Text style={styles.item}>{church.description.endereco}</Text>
             </View>
           )}
         </View>
