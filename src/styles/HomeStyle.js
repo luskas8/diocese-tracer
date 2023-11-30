@@ -9,7 +9,6 @@ const homeStyles = StyleSheet.create({
   },
   text: {
     color: '#FFFFFF',
-    // fontFamily: 'Montserrat-Regular',
     fontSize: 18,
     lineHeight: 60
   },

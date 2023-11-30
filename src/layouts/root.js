@@ -24,7 +24,7 @@ export default function RootLayout ({ children }) {
   }
 
   return (
-    <StatusBarProvider style={styles.container}>
+    <StatusBarProvider>
       <View style={styles.children} onLayout={onLayoutRootView}>
         {children}
       </View>
@@ -33,11 +33,7 @@ export default function RootLayout ({ children }) {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    // position: 'relative'
-  },
   children: {
-    // position: 'absolute',
     width: '100%',
     height: '100%'
   }

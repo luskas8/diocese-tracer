@@ -41,7 +41,6 @@ export default function Map ({ route, navigation }) {
     await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
       latitude,
       longitude,
-      // format: 'json',
       task: 'search',
       filter_catid: city,
       searchzip: 'Sua Localização (Você)',
@@ -102,7 +101,6 @@ export default function Map ({ route, navigation }) {
 
   useEffect(() => {
     if (location && city) {
-      // console.log('buscando igrejas')
       getNearbyChurches(city)
     }
   }, [location, city])
@@ -132,8 +130,6 @@ export default function Map ({ route, navigation }) {
     )
   }
 
-  // console.log('selectedChurchId', selectedChurch)
-
   return (
     <DefaultLayout>
       <BottonPopup church={selectedChurch}>
@@ -159,7 +155,6 @@ export default function Map ({ route, navigation }) {
                 }}
               />
               {churches.map((church) => {
-              // /*, properties: { distance, icon, name, url } */
                 const { id, geometry } = church
 
                 return (

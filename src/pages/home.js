@@ -100,8 +100,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: '400',
-    lineHeight: 25//,
-    // letterSpacing: -0.24
+    lineHeight: 25
   },
   localizationView: {
     paddingVertical: 32,

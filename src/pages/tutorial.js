@@ -89,8 +89,7 @@ const styles = StyleSheet.create({
     fontSize: 13.5,
     fontStyle: 'normal',
     fontWeight: '400',
-    lineHeight: 25//,
-    // letterSpacing: -0.24
+    lineHeight: 25
   },
   tutorialView: {
     paddingVertical: 12,

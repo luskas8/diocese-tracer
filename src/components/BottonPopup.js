@@ -5,17 +5,9 @@ import { getApps } from 'react-native-map-link'
 
 const BottonPopup = ({ children, church }) => {
   const [availableApps, updateAvailableApps] = useState([])
-  // ref
   const bottomSheetRef = useRef(null)
 
-  // variables
   const snapPoints = useMemo(() => ['15%', '30%', '50%'], [])
-
-  // callbacks
-  // const handleSheetChanges = useCallback((index) => {
-  //   if (!church) return
-  //   console.log('handleSheetChanges', index)
-  // }, [])
 
   useEffect(() => {
     if (!church) {
@@ -33,7 +25,6 @@ const BottonPopup = ({ children, church }) => {
     })()
   }, [church])
 
-  // renders
   return (
     <View style={styles.container}>
       {children}
@@ -41,7 +32,6 @@ const BottonPopup = ({ children, church }) => {
         ref={bottomSheetRef}
         index={0}
         snapPoints={!church ? ['15%'] : snapPoints}
-        // onChange={handleSheetChanges}
       >
         <View style={styles.contentContainer}>
           {!church && (
