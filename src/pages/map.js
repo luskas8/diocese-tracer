@@ -3,7 +3,7 @@ import DefaultLayout from '../layouts/default'
 
 import { getCurrentPositionAsync } from 'expo-location'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { ActivityIndicator, StyleSheet, View } from 'react-native'
+import { ActivityIndicator, StyleSheet, Text, View } from 'react-native'
 import MapView, { Marker } from 'react-native-maps'
 import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 import citys from '../assets/data/citys.json'
@@ -125,8 +125,9 @@ export default function Map ({ route, navigation }) {
 
   if (!location || !city || churchs.length <= 0) {
     return (
-      <View style={styles.container}>
+      <View style={{ ...styles.container, alignItems: 'center' }}>
         <ActivityIndicator size='large' color='#0000ff' />
+        <Text style={{ ...styles.contentTitle, marginTop: 5 }}>Buscando pelas paróquias...</Text>
       </View>
     )
   }
