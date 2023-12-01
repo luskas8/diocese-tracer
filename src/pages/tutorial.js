@@ -7,36 +7,39 @@ export default function Tutorial () {
       <ScrollView style={{ backgroundColor: 'rgba(101, 158, 237, 0.60)' }}>
         <View style={styles.tutorialView}>
           <View style={styles.tutorials}>
-            <Text style={styles.subtitle}>1. Me localizando</Text>
-            <Text style={styles.text}>Primeiro clique em LOCALIZAR-ME para buscar as paróquias que estejam perto de você.</Text>
-            <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/part1/one.png')} />
+            <Text style={styles.subtitle}>Encontrando as paróquias mais próximas</Text>
+
+            <Text style={styles.text}>Utilize a sua localização para buscar pelas paróquias que estão próximas de você clicando no botão &quot;LOCALIZAR-ME&quot;: </Text>
+            <View style={styles.imageWrapper}>
+              <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/p1-one.png')} />
+            </View>
           </View>
 
           <View style={styles.tutorials}>
-            <Text style={styles.text}>Ou se desejar também pode buscar as paróquias que estejam localizadas em algum outro lugar da Baixada Santista.</Text>
-            <Text style={styles.text}>Digite o endereço do local de sua escolha</Text>
-            <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/part2/one.png')} />
+            <Text style={styles.subtitle}>Encontrando paróquias de uma cidade específica</Text>
 
-            <Text style={styles.text}>Em seguida escolha a cidade que pertence a esse endereço</Text>
-            <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/part2/two.png')} />
+            <Text style={styles.text}>Você também pode buscar por paróquias que estejam localizadas em algum outro lugar da Baixada Santista selecionando a cidade de sua escolha: </Text>
+            <View style={{ ...styles.imageWrapper, height: 300 }}>
+              <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/p2-one.png')} />
+            </View>
 
-            <Text style={styles.text}>E por fim aperte em Enviar para começar a busca pelas paróquias.</Text>
-            <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/part2/three.png')} />
+            <Text style={styles.text}>E por fim clique em Enviar para concluir a busca:</Text>
+            <View style={{ ...styles.imageWrapper, width: 160, height: 100 }}>
+              <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/p2-two.png')} />
+            </View>
           </View>
 
           <View style={styles.tutorials}>
-            <Text style={styles.subtitle}>2. Buscando paróquias</Text>
-            <Text style={styles.text}>Para que possa visualizar mais informações sobre uma paróquia, selecione o marcador que deseja.</Text>
-            <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/part3/one.png')} />
+            <Text style={styles.subtitle}>Visualizando detalhes de cada paróquia</Text>
+            <Text style={styles.text}>Para visualizar mais informações sobre uma paróquia, selecione o seu marcador:</Text>
+            <View style={{ ...styles.imageWrapper, height: 400 }}>
+              <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/p3-one.png')} />
+            </View>
 
-            <Text style={styles.text}>Irá se abrir uma pequena janela contendo as informações da paróquia selecionada.</Text>
-            <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/part3/two.png')} />
-
-            <Text style={styles.text}>Arrastando para cima a janela, irá ser mostrado uma lista de todas as paróquias mostradas no mapa.</Text>
-            <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/part3/three.png')} />
-
-            <Text style={styles.text}>Também pode-se selecionar qualquer outra outra paróquia pela a lista.</Text>
-            <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/part3/four.png')} />
+            <Text style={styles.text}>As informações da paróquia selecionada aparecerão no canto inferior:</Text>
+            <View style={{ ...styles.imageWrapper, height: 400 }}>
+              <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/p3-two.png')} />
+            </View>
           </View>
         </View>
       </ScrollView>
@@ -45,41 +48,15 @@ export default function Tutorial () {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    paddingVertical: 22,
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    backgroundColor: 'rgba(101, 158, 237, 0.60)'
-  },
-  button: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingVertical: 12,
-    paddingHorizontal: 32,
-    borderRadius: 4,
-    elevation: 3,
-    backgroundColor: '#3F88EF'
-  },
-  title: {
-    paddingHorizontal: 16,
-    textAlign: 'center',
-    color: '#FFF',
-    fontFamily: 'Montserrat',
-    fontSize: 28,
-    fontStyle: 'normal',
-    fontWeight: '700',
-    lineHeight: 30,
-    letterSpacing: 0.9
-  },
   subtitle: {
     color: '#FFF',
     fontFamily: 'Montserrat',
     fontSize: 20,
     fontStyle: 'normal',
     fontWeight: '700',
-    lineHeight: 30,
-    letterSpacing: 1
+    lineHeight: 24,
+    letterSpacing: 1,
+    paddingBottom: 10
   },
   text: {
     paddingHorizontal: 8,
@@ -92,14 +69,20 @@ const styles = StyleSheet.create({
     lineHeight: 25
   },
   tutorialView: {
-    paddingVertical: 12,
-    gap: 22
+    paddingVertical: 12
   },
   tutorials: {
-    paddingHorizontal: 16,
-    gap: 16
+    paddingHorizontal: 16
   },
   tutorialImage: {
+    flex: 1,
+    width: null,
+    height: null,
+    resizeMode: 'contain'
+  },
+  imageWrapper: {
+    width: 300,
+    height: 130,
     alignSelf: 'center'
   }
 })

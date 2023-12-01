@@ -1,16 +1,17 @@
 import BottomSheet from '@gorhom/bottom-sheet'
 import React, { useEffect, useMemo, useRef, useState } from 'react'
-import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
+import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'
 import { getApps } from 'react-native-map-link'
 
 const BottonPopup = ({ children, church }) => {
   const [availableApps, updateAvailableApps] = useState([])
   const bottomSheetRef = useRef(null)
 
-  const snapPoints = useMemo(() => ['15%', '30%', '50%'], [])
+  const snapPoints = useMemo(() => !church ? ['20%'] : ['14%', '30%', '50%'], [church])
 
   useEffect(() => {
     if (!church) {
+      bottomSheetRef.current.collapse()
       return
     }
 
@@ -22,6 +23,7 @@ const BottonPopup = ({ children, church }) => {
         googleForceLatLon: true
       })
       updateAvailableApps(apps)
+      bottomSheetRef.current.expand()
     })()
   }, [church])
 
@@ -31,28 +33,34 @@ const BottonPopup = ({ children, church }) => {
       <BottomSheet
         ref={bottomSheetRef}
         index={0}
-        snapPoints={!church ? ['15%'] : snapPoints}
+        snapPoints={snapPoints}
       >
         <View style={styles.contentContainer}>
           {!church && (
-            <Text style={styles.name}>Selecione uma paróquia</Text>
+            <View style={{ alignItems: 'center' }}>
+              <Text style={styles.name}>Selecione uma paróquia</Text>
+              <Text style={{ ...styles.item, color: 'gray', textAlign: 'center' }}>Utilize o gesto de pinça para aproximar os marcadores das paróquias</Text>
+            </View>
           )}
           {church && (
-            <View>
-              <Text style={styles.name}>{church.name} - {church.distance}</Text>
-              <Text style={styles.itemTitle}>Como chegar:</Text>
-              <View style={styles.directionContainer}>
-                {availableApps.map(({ icon, name, id, open }) => (
-                  <Pressable style={styles.direction} key={id} onPress={open}>
-                    <Image style={styles.icon} source={icon} />
-                    <Text style={{ ...styles.item, marginTop: 5 }}>{name}</Text>
-                  </Pressable>
-                ))}
-              </View>
-              <Text style={styles.itemTitle}>Horários:</Text>
-              {church.description.horario.map((horario) => <Text style={styles.item} key={horario}>{horario}</Text>)}
-              <Text style={{ ...styles.itemTitle, marginTop: 16 }} >Endereço:</Text>
-              <Text style={styles.item}>{church.description.endereco}</Text>
+            <View style={{ paddingVertical: 12 }}>
+              <ScrollView>
+                <Text style={styles.name}>{church.name}</Text>
+                <Text style={{ ...styles.item, marginBottom: 5 }}>Esta paróquia está a {church.distance} de você!</Text>
+                <Text style={styles.itemTitle}>Como chegar:</Text>
+                <View style={styles.directionContainer}>
+                  {availableApps.map(({ icon, name, id, open }) => (
+                    <Pressable style={styles.direction} key={id} onPress={open}>
+                      <Image style={styles.icon} source={icon} />
+                      <Text style={{ ...styles.item, marginTop: 5 }}>{name}</Text>
+                    </Pressable>
+                  ))}
+                </View>
+                <Text style={styles.itemTitle}>Horário(s) da(s) missa(s):</Text>
+                {church.description.horario.map((horario) => <Text style={styles.item} key={horario}>{horario}</Text>)}
+                <Text style={{ ...styles.itemTitle, marginTop: 16 }} >Endereço:</Text>
+                <Text style={styles.item}>{church.description.endereco}</Text>
+              </ScrollView>
             </View>
           )}
         </View>
@@ -75,7 +83,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     fontStyle: 'normal',
-    lineHeight: 60
+    lineHeight: 30
 
   },
   item: {
