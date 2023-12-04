@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { Image, Pressable, StyleSheet, Text, View, Platform } from 'react-native'
 import citys from '../assets/data/citys.json'
 import DefaultLayout from '../layouts/default'
+import Icon from 'react-native-vector-icons/Entypo'
 
 export default function MainPanel ({ navigation: { navigate } }) {
   const [selectedCity, setSelectedCity] = useState()
@@ -28,12 +29,14 @@ export default function MainPanel ({ navigation: { navigate } }) {
           <Text style={styles.subtitle}>Você pode achar todas as paróquias da Baixada Santista</Text>
         </View>
         <View style={styles.localizationView}>
-          <Pressable style={styles.button} onPress={() => navigate('Mapa', { cityParam: null })}>
-            <Text style={{ ...styles.text, textTransform: 'uppercase' }}>localizar-me</Text>
+          <Pressable style={{ ...styles.button, backgroundColor: '#00b06a' }} onPress={() => navigate('Mapa', { cityParam: null })}>
+            <Icon name='location-pin' size={24} color='#FFF' />
+            <Text style={{ ...styles.text, textTransform: 'uppercase' }}>usar minha localização</Text>
           </Pressable>
           <View>
             <Image source={require('../assets/images/splitter.png')} />
           </View>
+          <Text style={styles.paragraph}>Selecione uma cidade</Text>
           <Picker
             style={Platform.OS === 'ios' ? styles.selectIOS : styles.select}
             selectedValue={selectedCity}
@@ -47,11 +50,13 @@ export default function MainPanel ({ navigation: { navigate } }) {
             })}
           </Picker>
           <Pressable style={{ ...styles.button, alignSelf: 'center' }} onPress={() => navigate('Mapa', { cityParam: selectedCity === '' ? null : selectedCity })}>
-            <Text style={styles.text}>Enviar</Text>
+            <Icon name='magnifying-glass' size={20} color='#FFF' />
+            <Text style={styles.text}>Buscar paróquias</Text>
           </Pressable>
         </View>
         <Pressable style={styles.hint} onPress={() => navigate('Tutorial')}>
-          <Text style={styles.text}>Dúvidas</Text>
+          <Icon name='help-with-circle' size={20} color='rgba(255, 255, 255, 0.5)' />
+          <Text style={{ ...styles.text, color: 'rgba(255, 255, 255, 0.5)' }}>Como utilizar o aplicativo?</Text>
         </Pressable>
       </View>
     </DefaultLayout>
@@ -79,7 +84,20 @@ const styles = StyleSheet.create({
     paddingHorizontal: 32,
     borderRadius: 4,
     elevation: 3,
-    backgroundColor: '#3F88EF'
+    backgroundColor: '#3F88EF',
+    flexDirection: 'row',
+    gap: 8
+  },
+  paragraph: {
+    textAlign: 'center',
+    color: '#FFF',
+    fontFamily: 'Montserrat',
+    fontSize: 16,
+    fontStyle: 'normal',
+    fontWeight: '400',
+    lineHeight: 30,
+    letterSpacing: 0.84,
+    paddingBottom: 8
   },
   title: {
     paddingHorizontal: 16,
@@ -134,8 +152,9 @@ const styles = StyleSheet.create({
     paddingVertical: 6,
     paddingHorizontal: 12,
     borderRadius: 20,
-    elevation: 3,
-    backgroundColor: '#3F88EF'
+    backgroundColor: 'rgba(200, 200, 200, 0.15)',
+    flexDirection: 'row',
+    gap: 8
   },
   select: {
     color: '#000',

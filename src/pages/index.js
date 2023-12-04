@@ -2,6 +2,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 import { Image, Pressable, StyleSheet, View } from 'react-native'
 import AntIcon from 'react-native-vector-icons/AntDesign'
+import InitialPage from './initial'
 import HomePage from './home'
 import MapPage from './map'
 import TutorialPage from './tutorial'
@@ -17,7 +18,8 @@ export function MainStack () {
   }
 
   return (
-    <Stack.Navigator initialRouteName='Home'>
+    <Stack.Navigator initialRouteName='Initial'>
+      <Stack.Screen name="Initial" component={InitialPage} options={{ ...headerOptions, headerTitleAlign: 'center' }} />
       <Stack.Screen name="Home" component={HomePage} options={{ ...headerOptions, headerTitleAlign: 'center', headerLeft: HomeButoon }} />
       <Stack.Screen name="Tutorial" component={TutorialPage} options={{ ...headerOptions, headerTitle: 'Como usar o aplicativo', headerLeft: BackButoon }} />
       <Stack.Screen name="Mapa" component={MapPage} options={{ headerBackTitle: 'Voltar' }} />
