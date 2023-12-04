@@ -24,7 +24,7 @@ export default function Tutorial () {
             </View>
 
             <Text style={styles.text}>E por fim clique em Enviar para concluir a busca:</Text>
-            <View style={{ ...styles.imageWrapper, width: 160, height: 100 }}>
+            <View style={{ ...styles.imageWrapper, width: 280, height: 100 }}>
               <Image style={styles.tutorialImage} source={require('../assets/images/tutorials/p2-two.png')} />
             </View>
           </View>
