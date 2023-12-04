@@ -35,14 +35,18 @@ export default function Map ({ route, navigation }) {
     setCity(citys[data.address.town] || null)
   }
 
-  async function getNearbyChurches (city) {
+  async function getNearbyChurches (cidade) {
     const { latitude, longitude } = location.coords
+
+    if (!cidade) {
+      return
+    }
 
     await axios.post('https://www.diocesedesantos.com.br/horarios-das-missas', {
       latitude,
       longitude,
       task: 'search',
-      filter_catid: city,
+      filter_catid: cidade,
       searchzip: 'Sua Localização (Você)',
       limitstart: '10'
     }, {
@@ -55,7 +59,7 @@ export default function Map ({ route, navigation }) {
       longitude,
       format: 'json',
       task: 'search',
-      filter_catid: city,
+      filter_catid: cidade,
       searchzip: 'Sua Localização (Você)',
       limitstart: '10'
     }, {
@@ -65,17 +69,41 @@ export default function Map ({ route, navigation }) {
     })
 
     const { features } = response.data
+    let churches = []
+    const deParaCitys = {
+      60: 'Bertioga',
+      57: 'Cubatão',
+      58: 'Guarujá',
+      61: 'Itanhaém',
+      63: 'Mongaguá',
+      62: 'Peruíbe',
+      64: 'Praia Grande',
+      59: 'Santos',
+      56: 'São Vicente'
+    }
+    const cityInfo = churchesJson[deParaCitys[cidade]]
 
-    const churches = features.map((church) => {
-      const { id, properties: { name, distance } } = church
+    if (!features || cidade === 59) {
+      churches = Object.keys(cityInfo).map((id) => {
+        const distance = Math.sqrt(Math.pow(((cityInfo[id].geometry.coordinates[0] - longitude)), 2) + Math.pow((cityInfo[id].geometry.coordinates[1] - latitude), 2))
+        return {
+          id,
+          distance,
+          ...cityInfo[id]
+        }
+      })
+    } else {
+      churches = features.map((church) => {
+        const { id, properties: { name, distance } } = church
 
-      return {
-        id,
-        ...churchesJson[id],
-        distance,
-        name
-      }
-    })
+        return {
+          id,
+          ...cityInfo[id],
+          distance,
+          name
+        }
+      })
+    }
 
     setChurches(churches)
   }
@@ -156,6 +184,10 @@ export default function Map ({ route, navigation }) {
               />
               {churches.map((church) => {
                 const { id, geometry } = church
+
+                if (id === 59 || id === 85) {
+                  return null
+                }
 
                 return (
                   <Marker
